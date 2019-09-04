@@ -65,4 +65,34 @@ var shifts = [
         from: "14:00",
         to: "16:00"
     },
+    {
+        id: 7,
+        day: "wednesday",
+        from: "10:30",
+        to: "11:30"
+    },
+    {
+        id: 7,
+        day: "thursday",
+        from: "14:00",
+        to: "16:00"
+    },
+    {
+        id: 7,
+        day: "friday",
+        from: "10:30",
+        to: "12:30"
+    },
+    {
+        id: 7,
+        day: "friday",
+        from: "23:00",
+        to: "24:00"
+    },
+    {
+        id: 7,
+        day: "saturday",
+        from: "00:00",
+        to: "01:00"
+    }
 ];
