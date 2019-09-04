@@ -44,7 +44,7 @@ var tutors =  [
     },
         {
         id: 6,
-        name: "Maahir Ur Rahman Mohamed Shibly",
+        name: "Maahir Ur Rahman",
         bio: "Heya! I'm Maahir, a Computer Science and Mathematics senior who loves doing a little bit of everything. Aside from helping you with the normal CS course stuff, I've dabbled in Front-End(HTML,CCS,JS) and am learning Golang at the moment. I can help you with understanding mathematical motivations, *insert Big Oh*, and maybe even make this daunting process of learning CS a fun one.",
         image: "images/tutors/maahir-profile.jpg",
         email: "maahirur@nyu.edu",
