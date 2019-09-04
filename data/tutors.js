@@ -53,7 +53,7 @@ var tutors =  [
         id: 7,
         name: "Samridha Shrestha",
         bio: "Hello there, I am Samridha but you can call me Sam. I am interested in machine learning, data science, music, and rock climbing. I can help you with questions related to Python, C/C++, or data science. Can also help you with making your GitHub profile shine. Catch me at the UNIX lab or the climbing wall, I take questions at both places.",
-        image: "images/tutors/",
+        image: "images/tutors/Samridha-min.jpg",
         email: "sms1198@nyu.edu",
     },
     {
