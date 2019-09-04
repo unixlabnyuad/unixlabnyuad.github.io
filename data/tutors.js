@@ -42,4 +42,11 @@ var tutors =  [
         image: "images/tutors/jacinta-1-532x1024.jpeg",
         email: "jh5372@nyu.edu",
     },
+    {
+        id: 6,
+        name: "Ali Shazal",
+        bio: "s someone who wrote his first line of 'Hello World!' here in college, I can understand the struggle and frustration while writing code. Feel free to come talk to me about anything CS/tech related, or if you're in the mood for lame jokes. Otherwise, I can be found taking photos at events and stuffing myself with free food wherever I find it. You'll recognize me from my big curly hair.",
+        image: "https://drive.google.com/file/d/1-LWUP4lcAziPV4o1z3wSCksdZ72kJVcS/view?usp=sharing",
+        email: "as10505@nyu.edu"
+    }
 ];
