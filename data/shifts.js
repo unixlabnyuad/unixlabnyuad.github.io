@@ -12,24 +12,6 @@ var shifts = [
         to: "20:30"
     },
     {
-        id: 1,
-        day: "monday",
-        from: "12:00",
-        to: "15:30"
-    },
-    {
-        id: 1,
-        day: "wednesday",
-        from: "19:00",
-        to: "21:00"
-    },
-    {
-        id: 2,
-        day: "monday",
-        from: "17:00",
-        to: "18:30"
-    },
-    {
         id: 2,
         day: "wednesday",
         from: "17:00",
