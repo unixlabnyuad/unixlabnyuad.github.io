@@ -9,7 +9,7 @@ var tutors =  [
     {
         id: 1,
         name: "Michael Fengyuan Liu",
-        bio: "Michael is a Junior majoring in Computer Science. He is fluent in English, Mandarin, C/C++ and Python. Apart from CS coursework, he had experience with Pandas, Django, and web scraping, as well as Matlab and R. He is passionate about solving algorithmic problems (although not particularly an expert at it). He also cares about basketball, meaning of life, and having dinner on time.",
+        bio: "Michael is a fourth-year student majoring in Computer Science. He is fluent in English, Mandarin, C/C++ and Python. Apart from CS coursework, he had experience with Pandas, Django, and web scraping, as well as Matlab and R. He is passionate about solving algorithmic problems (although not particularly an expert at it). He also cares about basketball, meaning of life, and having dinner on time.",
         image: "images/tutors/Michael_Liu-214x300.jpg",
         email: "fl1092@nyu.edu",
     },
