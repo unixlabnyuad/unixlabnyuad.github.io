@@ -39,8 +39,8 @@ var tutors =  [
         id: 5,
         name: "Jacinta Hu",
         bio: "It took me a while to decide to major in CS, but now I’m a senior and a lab monitor so I guess there's no turning back. I love helping out with coursework (even if it's not CS! I also took FOS), and feel free to talk to me if you're interested in working at the Gazelle as a web dev. When I'm not in the lab, you can probably find me on the volleyball court or in the Arts Center. Come say hi!",
-        image: "images/tutors/jacinta-1-532x1024.jpeg",
-        email: "jh5372@nyu.edu",
+        image: "images/tutors/jacinta-tutor.jpeg",
+        email: "jacinta.hu@nyu.edu",
     },
         {
         id: 6,
