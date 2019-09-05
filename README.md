@@ -28,7 +28,7 @@ brace even if you are the last entry,
 - you upload your image to the **images/tutors/** folder and refer to it correctly
 in the image entry,
 - do not modify other entries or ids, and
-- remember you id.
+- remember your id.
 
 
 ### Schedule
@@ -68,4 +68,4 @@ date,id,from,to
 28/08/19,2,20:00,21:00
 ```
 Add an entry with the date in the following format dd/mm/yy, your id, the start and end of 
-the shift (or part of the shift) that you will skip. Do not introduce any spaces
+the shift (or part of the shift) that you will skip. Do not introduce any spaces.
