@@ -5,6 +5,11 @@
   stroke: #bcbdbf;
   stroke-width:1
 }
+.vgrid{
+  stroke: #bcbdbf;
+  stroke-width:1
+}
+
 .day.hover {
   stroke: #6d6E70;
   stroke-width: 2;

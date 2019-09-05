@@ -42,9 +42,9 @@
   <a href = "#tutors-label">Tutors</a>
   <a href = "#schedule-label">Schedule</a>
 </div>
-<div id="spotlight">
+<!--<div id="spotlight">
   <img src="images/spotlights/">
-</div>
+</div>-->
 
 <div id="about">
   <p>The Unix Lab is the Computer Science Academic Space at NYU Abu Dhabi.
@@ -148,7 +148,7 @@
       return 0;
     }
     else{
-      if (yoffset(a.from) > preTo){
+      if (yoffset(a.from) >= preTo){
         preTo = yoffset(a.to);
         return 0;
       }
@@ -210,7 +210,22 @@
           .attr("x2", 7 * 2 * (cellWidth + cellMargin) + 7 * (weekMargin) + sidelabeMargin)
           .attr("y2", function(d){
             return yoffset(format(d)) + toplabelMargin;
+          });
+
+  var vgrids = [...Array(8).keys()];
+  var vgrid = svg.selectAll("line.vgrid").data(vgrids).enter()
+          .append("line")
+          .attr("class", "vgrid")
+          .attr("x1", function(d){
+            return d * (2*(cellWidth + cellMargin) + weekMargin) + sidelabeMargin;
           })
+          .attr("y1", yoffset(format(timelabels[0])) + toplabelMargin)
+          .attr("x2", function(d){
+            console.log(d * (2*(cellWidth + cellMargin) + weekMargin) + sidelabeMargin);
+            return d * (2*(cellWidth + cellMargin) + weekMargin) + sidelabeMargin;
+
+          })
+          .attr("y2", yoffset(format(timelabels[timelabels.length-1])) + toplabelMargin);
 
   var rect = svg.selectAll("rect.day").data(shifts.sort(comparef)).enter()
           .append("rect")
@@ -224,11 +239,12 @@
           })
           .attr("rx", 3).attr("ry", 3) // rounded corners
           .attr("fill", function(d){
+            //return "#1f78b4";
             return d3.schemePaired[d.id];
           })
           .attr("x", function (d) {
             var wkday = weekdays.indexOf(d.day);
-            var pos = wkday * ((cellWidth + cellMargin) * 2 + weekMargin) + xindex(d)*(cellWidth + cellMargin);
+            var pos = weekMargin/2 + wkday * ((cellWidth + cellMargin) * 2 + weekMargin) + xindex(d)*(cellWidth + cellMargin);
             return pos + sidelabeMargin;
           })
           .attr("y", function(d){
@@ -236,6 +252,9 @@
           })
           .on("mouseover", function (d) {
             d3.select(this).classed('hover', true);
+            //d3.select(this).style("fill", function(d){
+            //  return d3.schemePaired[d.id];
+            //        })
             div.transition()
                     .duration(200)
                     .style("opacity", .9);
