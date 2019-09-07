@@ -1,6 +1,46 @@
 #calendar {
   margin: 20px;
 }
+
+/* width */
+#spots::-webkit-scrollbar {
+  height: 5px;
+}
+
+/* Track */
+#spots::-webkit-scrollbar-track {
+  /*box-shadow: inset 0 0 5px grey;*/
+  border-radius: 0px;
+}
+
+/* Handle */
+#spots::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 0px;
+}
+
+/* Handle on hover */
+#spots::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
+
+ul.spots{
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  width: 100%;
+  overflow-x: auto;
+  background-color: white;
+}
+ul.spots li {
+  display: inline;
+  height: 300px;
+}
+
+img:hover{
+  filter: grayscale(5%);
+}
+
 .grid{
   stroke: #bcbdbf;
   stroke-width:1
