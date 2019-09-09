@@ -1,12 +1,5 @@
 var tutors =  [
     {
-        id: 0,
-        name: "Alejandra Trejo Rodriguez",
-        bio: "Hi there! This is Alejandra but just call me Ale. I love art and technology so if I’m not in the Unix lab you can probably find me at the IM lab. Bring me your questions and I’ll try to answer them. If not, we can cry together. I’ve been told I’m a good listener!",
-        image: "images/tutors/ale-e1550660921516-225x300.jpg",
-        email: "alejandra.trejo@nyu.edu",
-    },
-    {
         id: 1,
         name: "Michael Fengyuan Liu",
         bio: "Michael is a fourth-year student majoring in Computer Science. He is fluent in English, Mandarin, C/C++ and Python. Apart from CS coursework, he had experience with Pandas, Django, and web scraping, as well as Matlab and R. He is passionate about solving algorithmic problems (although not particularly an expert at it). He also cares about basketball, meaning of life, and having dinner on time.",
