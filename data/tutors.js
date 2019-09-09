@@ -1,5 +1,12 @@
 var tutors =  [
     {
+        id: 0,
+        name: "Teona Ristova",
+        bio: "Hi! I’m Teona a senior majoring in CS. My interests predominantly lie in data science, business analysis and digital product development. I can help you with questions related to Python, C/C++, SQL, databases, or data science (web-scrapping, APIs, regressions etc). I would also be happy to help you out with any coursework difficulties you might be facing.",
+        image: "images/tutors/teona.jpg",
+        email: "tr1328@nyu.edu",
+    },
+    {
         id: 1,
         name: "Michael Fengyuan Liu",
         bio: "Michael is a fourth-year student majoring in Computer Science. He is fluent in English, Mandarin, C/C++ and Python. Apart from CS coursework, he had experience with Pandas, Django, and web scraping, as well as Matlab and R. He is passionate about solving algorithmic problems (although not particularly an expert at it). He also cares about basketball, meaning of life, and having dinner on time.",
