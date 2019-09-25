@@ -3,19 +3,19 @@ var shifts = [
         id: 0,
         day: "sunday",
         from: "19:00",
-        to: "23:30"
+        to: "23:00"
     },
     {
         id: 0,
         day: "tuesday",
         from: "19:00",
-        to: "22:30"
+        to: "21:00"
     },
     {
         id: 0,
         day: "thursday",
         from: "19:00",
-        to: "22:30"
+        to: "21:00"
     },
     {
         id: 2,
