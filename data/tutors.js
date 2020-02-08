@@ -7,6 +7,13 @@ var tutors =  [
         email: "wahibkamran@nyu.edu",
     },
     {
+        id: 2,
+        name: "Kertu Koss",
+        bio: "",
+        image: "",
+        email: "kertukoss@nyu.edu",
+    },
+    {
         id: 4,
         name: "Mingyang Wang",
         bio: "Ming here. I can help you with C++, Python and web development (React, Redux, Node, etc.). You can also torture me with questions on Haskell and/or functional programming ",
