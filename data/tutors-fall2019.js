@@ -1,5 +1,34 @@
 var tutors =  [
     {
+        id: 0,
+        name: "Teona Ristova",
+        bio: "Hi! I’m Teona a senior majoring in CS. My interests predominantly lie in data science, business analysis and digital product development. I can help you with questions related to Python, C/C++, SQL, databases, or data science (web-scrapping, APIs, regressions etc). I would also be happy to help you out with any coursework difficulties you might be facing.",
+        image: "images/tutors/teona.jpg",
+        email: "tr1328@nyu.edu",
+    },
+    {
+        id: 1,
+        name: "Michael Fengyuan Liu",
+        bio: "Michael is a fourth-year student majoring in Computer Science. He is fluent in English, Mandarin, C/C++ and Python. Apart from CS coursework, he had experience with Pandas, Django, and web scraping, as well as Matlab and R. He is passionate about solving algorithmic problems (although not particularly an expert at it). He also cares about basketball, meaning of life, and having dinner on time.",
+        image: "images/tutors/Michael_Liu-214x300.jpg",
+        email: "fl1092@nyu.edu",
+    },
+    {
+        id: 2,
+        name: "Jaisal Freidman",
+        bio: "Aspiring quant, inspiring C aficionado, recursively edge testing my life decisions. I can help you with slaving Arduinos, debugging C/C++, git’ing, launching your hot new (pythonic) website, simulating financial collapses in MATLAB or Jupyter, and finding hidden APIs. We can also geek out about the Black-Scholes-Equation, Levy fat tail distributions, or hedge funds bonuses if you’re into that.\n" +
+            "P.S.  I won’t write code for you, byte me.",
+        image: "images/tutors/DSC_0502_22-683x1024.jpg",
+        email: "jpf409@nyu.edu",
+    },
+    {
+        id: 3,
+        name: "Anh Mai",
+        bio: "CS and Math major. I can help you with Java, C++, Python, Matlab. I enjoy doing competitive programming as a hobby. I also would love to discuss any Math problems that you are interested.",
+        image: "images/tutors/anh.png",
+        email: "alm818@nyu.edu",
+    },
+    {
         id: 4,
         name: "Mingyang Wang",
         bio: "Ming here. I can help you with C++, Python and web development (React, Redux, Node, etc.). You can also torture me with questions on Haskell and/or functional programming ",
