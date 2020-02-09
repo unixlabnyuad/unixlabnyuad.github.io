@@ -65,7 +65,7 @@ var tutors =  [
     {
         id: 10,
         name: "Tofunmi Kupoluyi",
-        bio: "A man of many names: T, TK, Tofu, Tofunmi. I'll work with any. I can help with C, C++, Python, Java, Web Dev (NodeJS, React, HTML, CSS), SQL and MongoDB. Double-majoring in Math so I could also try to work through some proofs with you if you're stuck with Discrete. I love working and talking about startup projects/ideas, so if you have an interesting idea you want to run by me, come through!",
+        bio: "A man of many names: T, TK, Tofu, Tofunmi. Feel free to call me any. I can help with C, C++, Python, Java, Web Dev (NodeJS, React, HTML, CSS), SQL and MongoDB. Double-majoring in Math so I could also try to work through some proofs with you if you're stuck with Discrete. Outside the academic realm, I love working and talking about startup projects/ideas, so if you have an interesting idea you want to run by me, come through!",
         image: "",
         email: "jdk461@nyu.edu"
     }
