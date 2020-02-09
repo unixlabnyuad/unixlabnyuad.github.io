@@ -3,7 +3,7 @@ var tutors =  [
         id: 1,
         name: "Wahib Kamran",
         bio: "",
-        image: "",
+        image: "images/tutors/wahib.jpg",
         email: "wahibkamran@nyu.edu",
     },
     {
