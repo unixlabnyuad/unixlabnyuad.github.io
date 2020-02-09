@@ -14,6 +14,13 @@ var tutors =  [
         email: "kertukoss@nyu.edu",
     },
     {
+        id: 3,
+        name: "Jia Bokang",
+        bio: "Dunder mifflin this is Jia. If you got problems in C++, Python, Javascript, Node, or life let's work on it together. I'm interested in neuroscience, economics, and philosophy so hit me up with your wildest theories.",
+        image: "",
+        email: "bj798@nyu.edu",
+    },
+    {
         id: 4,
         name: "Mingyang Wang",
         bio: "Ming here. I can help you with C++, Python and web development (React, Redux, Node, etc.). You can also torture me with questions on Haskell and/or functional programming ",
