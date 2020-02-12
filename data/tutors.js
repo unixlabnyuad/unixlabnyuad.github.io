@@ -17,7 +17,7 @@ var tutors =  [
         id: 3,
         name: "Jia Bokang",
         bio: "Dunder mifflin this is Jia. If you got problems in C++, Python, Javascript, Node, or life let's work on it together. I'm interested in neuroscience, economics, and philosophy so hit me up with your wildest theories.",
-        image: "",
+        image: "images/tutors/jia.png",
         email: "bj798@nyu.edu",
     },
     {
