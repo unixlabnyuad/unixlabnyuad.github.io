@@ -1,5 +1,12 @@
 var tutors =  [
     {
+        id: 0,
+        name: "Tofunmi Kupoluyi",
+        bio: "Hey! I am a man of many names: T, TK, Tofu, Tofunmi. Feel free to call me any. I can help with C, C++, Python, Java, Web Dev (NodeJS, React, HTML, CSS), SQL and MongoDB. Double-majoring in Math so I could also try to work through some proofs with you if you're stuck with Discrete. Outside the academic realm, I love working and talking about startup projects/ideas. So, if you have an interesting idea you want to run by me, come through!",
+        image: "images/tutors/IMG_3140.JPG",
+        email: "jdk461@nyu.edu"
+    },
+    {
         id: 1,
         name: "Wahib Kamran",
         bio: "Howdy, I'm Wahib. Please reach out to me if you have any concerns regarding Python, JavaScript, C/C++, Full-Stack Web Dev, and database management. Other than that I'm deeply in love with table tennis, exploring new places, food, and bad puns. If you also ever want to talk about the wide array (no pun intended) of things on your mind, you know who to find! :)",
@@ -61,12 +68,5 @@ var tutors =  [
         bio: "Hi! I am Manesha and I am here to help you with C, C++, python and web development (NodeJS, ReactJS, HTML, CSS). Feel free to bombard me with questions and I'll do my best to help you! You can find me in the UNIX lab or you can find me around campus reading comic books!",
         image: "images/tutors/manesha-photo.jpg",
         email: "mr4684@nyu.edu"
-    },
-    {
-        id: 0,
-        name: "Tofunmi Kupoluyi",
-        bio: "Hey! I am a man of many names: T, TK, Tofu, Tofunmi. Feel free to call me any. I can help with C, C++, Python, Java, Web Dev (NodeJS, React, HTML, CSS), SQL and MongoDB. Double-majoring in Math so I could also try to work through some proofs with you if you're stuck with Discrete. Outside the academic realm, I love working and talking about startup projects/ideas. So, if you have an interesting idea you want to run by me, come through!",
-        image: "images/tutors/IMG_3140.JPG",
-        email: "jdk461@nyu.edu"
     }
 ];
