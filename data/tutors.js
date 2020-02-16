@@ -63,7 +63,7 @@ var tutors =  [
         email: "mr4684@nyu.edu"
     },
     {
-        id: 10,
+        id: 0,
         name: "Tofunmi Kupoluyi",
         bio: "Hey! I am a man of many names: T, TK, Tofu, Tofunmi. Feel free to call me any. I can help with C, C++, Python, Java, Web Dev (NodeJS, React, HTML, CSS), SQL and MongoDB. Double-majoring in Math so I could also try to work through some proofs with you if you're stuck with Discrete. Outside the academic realm, I love working and talking about startup projects/ideas. So, if you have an interesting idea you want to run by me, come through!",
         image: "images/tutors/IMG_3140.JPG",
