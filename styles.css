@@ -71,8 +71,8 @@ img:hover{
   font-size: 16px
 }
 .absent{
-  fill-opacity: 0.94;
-  fill: white;
+  fill-opacity: 1;
+  fill: lightgray;
 }
 
 div.tooltip {
