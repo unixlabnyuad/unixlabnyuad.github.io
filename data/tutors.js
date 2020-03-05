@@ -12,6 +12,7 @@ var tutors =  [
         bio: "Howdy, I'm Wahib. Please reach out to me if you have any concerns regarding Python, JavaScript, C/C++, Full-Stack Web Dev, and database management. Other than that I'm deeply in love with table tennis, exploring new places, food, and bad puns. If you also ever want to talk about the wide array (no pun intended) of things on your mind, you know who to find! :)",
         image: "images/tutors/wahib.jpg",
         email: "wahibkamran@nyu.edu",
+        zoom: "https://nyu.zoom.us/j/9292563079",
     },
     {
         id: 2,
