@@ -73,6 +73,7 @@ var tutors =  [
         name: "Manesha Ramesh",
         bio: "Hi! I am Manesha and I am here to help you with C, C++, python and web development (NodeJS, ReactJS, HTML, CSS). Feel free to bombard me with questions and I'll do my best to help you! You can find me in the UNIX lab or you can find me around campus reading comic books!",
         image: "images/tutors/manesha-photo.jpg",
-        email: "mr4684@nyu.edu"
+        email: "mr4684@nyu.edu",
+        zoom: "https://nyu.zoom.us/j/3815646057"
     }
 ];
