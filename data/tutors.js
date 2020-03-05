@@ -19,6 +19,7 @@ var tutors =  [
         bio: "Hi! As someone who came into college with zero background knowledge about CS, I understand how intimidating and tricky the first few CS classes might seem. Apart from helping you with intro classes and CS basics, I am more than happy to discuss about full-stack web development (MERN stack), agile, database design and query languages (SQL(ite), MongoDB) or even about study-away recommendations for New York and Shanghai.",
         image: "images/tutors/kertu.jpg",
         email: "kertukoss@nyu.edu",
+        zoom: "https://nyu.zoom.us/j/3526633405",
     },
     {
         id: 3,
