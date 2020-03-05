@@ -65,7 +65,8 @@ var tutors =  [
         name: "Ali Shazal",
         bio: "As someone who wrote his first line of 'Hello World!' here in college, I can understand the struggle and frustration while writing code. Feel free to come talk to me about anything CS related, or if you need help with Python, Javascript, C++, Data Science (particularly NLP), or Full-Stack Web Development. Otherwise, I can be found taking photos at events and stuffing myself with free food wherever I find it. You'll recognize me from my big curly hair.",
         image: "images/tutors/IMG-7663.JPG",
-        email: "as10505@nyu.edu"
+        email: "as10505@nyu.edu",
+        zoom: "https://nyu.zoom.us/j/9430679827"
     },
     {
         id: 9,
