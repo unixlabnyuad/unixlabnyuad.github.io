@@ -76,7 +76,16 @@
   <p> If a tutor cannot make a specific shift, we will try to provide a replacement, otherwise the
     the shift is greyed out indicating the absence of the tutor.
   </p>
+
+    <h3 style="color: red; text-transform: uppercase">Unix Lab Operation from March 8 to April 5, 2020</h3>
+    <p> The Unix Lab space will be closed during this period as outlined in the
+        <a href = "https://nyuad.nyu.edu/en/nyuad-response-to-covid-19.html">NYUAD response to COVID-19</a>.</p>
+    <p>The Unix Lab Tutors will continue to provide online tutoring sessions
+    according to the schedule below. You can click on an active shift to automatically connect
+        to the Zoom meeting room set up by the tutor. If one tutor is assisting another participant, you can connect
+        with another available active tutor.</p>
 </div>
+
 <div id="schedule">
 </div>
 
@@ -282,6 +291,18 @@
             div.transition()
                     .duration(500)
                     .style("opacity", 0);
+          })
+          .on("click", function(d){
+              var dt = new Date();
+              var time = format(dt);
+              if (yoffset(time) > yoffset(d.from) && yoffset(time) < yoffset(d.to) && d.day == weekdays[dt.getDay()]){
+                  window.open(tutors.find(function(t){return t.id == d.id}).zoom, '_blank');
+              }
+              else{
+                  console.log("NO");
+              }
+              //if(d.day == weekdays[dt.getDay()])
+              //window.open(tutors.find(function(t){return t.id == d.id}).zoom, '_blank');
           });
   d3.csv("data/absent.csv", function (c) {
     var absent =  c.filter(function(d){
