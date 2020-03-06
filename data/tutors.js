@@ -4,7 +4,8 @@ var tutors =  [
         name: "Tofunmi Kupoluyi",
         bio: "Hey! I am a man of many names: T, TK, Tofu, Tofunmi. Feel free to call me any. I can help with C, C++, Python, Java, Web Dev (NodeJS, React, HTML, CSS), SQL and MongoDB. Double-majoring in Math so I could also try to work through some proofs with you if you're stuck with Discrete. Outside the academic realm, I love working and talking about startup projects/ideas. So, if you have an interesting idea you want to run by me, come through!",
         image: "images/tutors/IMG_3140.JPG",
-        email: "jdk461@nyu.edu"
+        email: "jdk461@nyu.edu",
+        zoom: "https://nyu.zoom.us/j/3758494458"
     },
     {
         id: 1,
@@ -12,6 +13,7 @@ var tutors =  [
         bio: "Howdy, I'm Wahib. Please reach out to me if you have any concerns regarding Python, JavaScript, C/C++, Full-Stack Web Dev, and database management. Other than that I'm deeply in love with table tennis, exploring new places, food, and bad puns. If you also ever want to talk about the wide array (no pun intended) of things on your mind, you know who to find! :)",
         image: "images/tutors/wahib.jpg",
         email: "wahibkamran@nyu.edu",
+        zoom: "https://nyu.zoom.us/j/9292563079",
     },
     {
         id: 2,
@@ -19,6 +21,7 @@ var tutors =  [
         bio: "Hi! As someone who came into college with zero background knowledge about CS, I understand how intimidating and tricky the first few CS classes might seem. Apart from helping you with intro classes and CS basics, I am more than happy to discuss about full-stack web development (MERN stack), agile, database design and query languages (SQL(ite), MongoDB) or even about study-away recommendations for New York and Shanghai.",
         image: "images/tutors/kertu.jpg",
         email: "kertukoss@nyu.edu",
+        zoom: "https://nyu.zoom.us/j/3526633405",
     },
     {
         id: 3,
@@ -26,6 +29,7 @@ var tutors =  [
         bio: "Dunder mifflin this is Jia. If you got problems in C++, Python, Javascript, Node, or life let's work on it together. I'm interested in neuroscience, economics, and philosophy so hit me up with your wildest theories.",
         image: "images/tutors/jia.png",
         email: "bj798@nyu.edu",
+        zoom: "https://nyu.zoom.us/j/4818312518",
     },
     {
         id: 4,
@@ -33,6 +37,7 @@ var tutors =  [
         bio: "Ming here. I can help you with C++, Python and web development (React, Redux, Node, etc.). You can also torture me with questions on Haskell and/or functional programming ",
         image: "images/tutors/mingyang.jpeg",
         email: "mw3165@nyu.edu",
+        zoom: "https://nyu.zoom.us/j/4887685890",
     },
     {
         id: 5,
@@ -40,6 +45,7 @@ var tutors =  [
         bio: "It took me a while to decide to major in CS, but now I’m a senior and a lab monitor so I guess there's no turning back. I love helping out with coursework (even if it's not CS! I also took FOS), and feel free to talk to me if you're interested in working at the Gazelle as a web dev. When I'm not in the lab, you can probably find me on the volleyball court or in the Arts Center. Come say hi!",
         image: "images/tutors/jacinta-tutor.jpg",
         email: "jacinta.hu@nyu.edu",
+        zoom: "https://nyu.zoom.us/j/5243291769",
     },
         {
         id: 6,
@@ -54,19 +60,22 @@ var tutors =  [
         bio: "Hello there, I am Samridha but you can call me Sam. I am interested in machine learning, data science, music, and rock climbing. I can help you with questions related to Python, C/C++, or data science. Can also help you with making your GitHub profile shine. Catch me at the UNIX lab or the climbing wall, I take questions at both places.",
         image: "images/tutors/Samridha-min.jpg",
         email: "sms1198@nyu.edu",
+        zoom: "https://nyu.zoom.us/j/4707156152",
     },
     {
         id: 8,
         name: "Ali Shazal",
         bio: "As someone who wrote his first line of 'Hello World!' here in college, I can understand the struggle and frustration while writing code. Feel free to come talk to me about anything CS related, or if you need help with Python, Javascript, C++, Data Science (particularly NLP), or Full-Stack Web Development. Otherwise, I can be found taking photos at events and stuffing myself with free food wherever I find it. You'll recognize me from my big curly hair.",
         image: "images/tutors/IMG-7663.JPG",
-        email: "as10505@nyu.edu"
+        email: "as10505@nyu.edu",
+        zoom: "https://nyu.zoom.us/j/9430679827"
     },
     {
         id: 9,
         name: "Manesha Ramesh",
         bio: "Hi! I am Manesha and I am here to help you with C, C++, python and web development (NodeJS, ReactJS, HTML, CSS). Feel free to bombard me with questions and I'll do my best to help you! You can find me in the UNIX lab or you can find me around campus reading comic books!",
         image: "images/tutors/manesha-photo.jpg",
-        email: "mr4684@nyu.edu"
+        email: "mr4684@nyu.edu",
+        zoom: "https://nyu.zoom.us/j/3815646057"
     }
 ];
