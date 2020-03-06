@@ -28,6 +28,7 @@ var tutors =  [
         bio: "Dunder mifflin this is Jia. If you got problems in C++, Python, Javascript, Node, or life let's work on it together. I'm interested in neuroscience, economics, and philosophy so hit me up with your wildest theories.",
         image: "images/tutors/jia.png",
         email: "bj798@nyu.edu",
+        zoom: "https://nyu.zoom.us/j/4818312518",
     },
     {
         id: 4,
