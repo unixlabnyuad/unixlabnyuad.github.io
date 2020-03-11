@@ -37,7 +37,7 @@ var tutors =  [
         bio: "Ming here. I can help you with C++, Python and web development (React, Redux, Node, etc.). You can also torture me with questions on Haskell and/or functional programming ",
         image: "images/tutors/mingyang.jpeg",
         email: "mw3165@nyu.edu",
-        zoom: "https://nyu.zoom.us/j/4887685890",
+        zoom: "https://join.skype.com/k1EkWx64gzez",
     },
     {
         id: 5,
