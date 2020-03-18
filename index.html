@@ -294,6 +294,8 @@
           })
           .on("click", function(d){
               var dt = new Date();
+              var utc = dt.getTime() + (dt.getTimezoneOffset() * 60000);
+              dt = new Date(utc + (3600000*4));
               var time = format(dt);
               if (yoffset(time) > yoffset(d.from) && yoffset(time) < yoffset(d.to) && d.day == weekdays[dt.getDay()]){
                   window.open(tutors.find(function(t){return t.id == d.id}).zoom, '_blank');
