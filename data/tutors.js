@@ -36,7 +36,7 @@ var tutors =  [
         id: 4,
         name: "Iván Budnik",
         bio: "Hi! I'm Iván. I'm here to help you with anything related to C/C++, Javascript, Java, Python, SQL, and maybe even Web Dev with NodeJS. I'm minoring in Sound and Music Computing and I've done a lot of Music Tech here, so I'd be happy to give you a hand with any audio programming, JUCE C++, or Max projects too! Even if you just want to geek out about tech, audio, or music, let me know!",
-        image: "images/tutors/ivan.jpg",
+        image: "images/tutors/ivan-reupload.jpg",
         email: "ivanbuper@nyu.edu",
         zoom: "https://nyu.zoom.us/j/8518714127?pwd=MG5aczR4L0ZTZ25taE14R2p5TmcyZz09"
     }
