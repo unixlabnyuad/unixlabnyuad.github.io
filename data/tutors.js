@@ -24,4 +24,13 @@ var tutors =  [
         zoom: "https://nyu.zoom.us/j/3526633405",
     },
 
+    {
+        id: 3,
+        name: "Aizaz Ansari",
+        bio: "Hello friends! Feel free to reach out to me if you have any questions regarding programming fundamentals, CS theory or course selection. You can also talk to me about full stack web dev, data analytics and big data management. Apart from academics, I love doing landscape photography, so don’t hesitate to reach out if you’d like to learn more about it!",
+        image: "images/tutors/aizaz.jpg",
+        email: "aizaz.ansari@nyu.edu",
+        zoom: "https://us02web.zoom.us/j/5717497022?pwd=NGVNenBDcFhrTFZ4Wnc5N3I3eW5UUT09"
+    },
+
 ];
