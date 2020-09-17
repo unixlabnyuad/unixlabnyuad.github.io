@@ -40,5 +40,13 @@ var tutors =  [
         email: "ivanbuper@nyu.edu",
         zoom: "https://nyu.zoom.us/j/8518714127?pwd=MG5aczR4L0ZTZ25taE14R2p5TmcyZz09"
     }
+     {
+        id: 5,
+        name: "Aayusha Shrestha",
+        bio: "Hello! My name is Aayusha and I am a strong advocate for karak, chips oman, green tea, honey, and Hozier among other things. Apart from introductory CS and Economics courses, you can reach out to me for help with Python, C/C++, HTML/CSS or basic SQL. I’m also here if you want to talk about anything else: Study Aways, on-campus research opportunities, SIGs, life on Saadiyat, food places in AD, you name it! :)"
+        image: "images/tutors/Aayusha.jpg",
+        email: "aayusha.shrestha@nyu.edu",
+        zoom: "https://nyu.zoom.us/j/5905845772"
+    }
 
 ];
