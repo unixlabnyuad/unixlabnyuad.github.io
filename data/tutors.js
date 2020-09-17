@@ -47,6 +47,15 @@ var tutors =  [
         image: "images/tutors/Aayusha.jpg",
         email: "aayusha.shrestha@nyu.edu",
         zoom: "https://nyu.zoom.us/j/5905845772"
+    },
+
+    {
+        id: 6,
+        name: "Nhi Pham",
+        bio: "Hi there! I'm Nhi and I can help with Java, Python, C/C++, and SQL. Feel free to reach out to me with any problem (and we will struggle through it!) or just simply to say hi!",
+        image: "images/tutors/Nhi.jpg",
+        email: "nhi.pham@nyu.edu",
+        zoom: "https://nyu.zoom.us/j/92977209395"
     }
 
 ];
