@@ -10,7 +10,7 @@ var tutors =  [
     {
         id: 1,
         name: "Wahib Kamran",
-        bio: "Hey, I'm Wahib. Please reach out to me if you have any concerns regarding Python, JavaScript, C/C++, Full-Stack Web Dev, and database management. Other than that I'm deeply in love with table tennis, exploring new places, food, and bad puns. If you also ever want to talk about the wide array (no pun intended) of things on your mind, you know who to find! :)",
+        bio: "Hey, I'm Wahib. Please reach out to me if you have any concerns regarding Python, JavaScript, C/C++, full-stack web dev, and database management. Other than that I'm deeply in love with table tennis, exploring new places, food, and bad puns. If you also ever want to talk about the wide array (no pun intended) of things on your mind, you know who to find! :)",
         image: "images/tutors/wahib.jpg",
         email: "wahibkamran@nyu.edu",
         zoom: "https://nyu.zoom.us/j/9292563079",
