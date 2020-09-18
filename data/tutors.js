@@ -69,7 +69,7 @@ var tutors =  [
     {
         id: 8,
         name: "Usman Ali",
-        bio: "Hi! Hey! I'm Usman. As a person who took all sciences in my highschool except Computer Science, I understand your worries and anxieties while taking intro classes. I can assist you with C/C++, Python and Javascript. I'm taking a database management course this semester so even if you have questions regarding database implementation I'll be happy to sit down with you and disscuss. Other than that, I love dancing, acting, painting and other artsy stuff :) Feel free to reach out to me even if you're confused about your major (took me a long time to settle for one xD) or have questions about life in general. We will try to figure out anything that's buzzing you! ",
+        bio: "Hey! I'm Usman. As a person who took all sciences during highschool except Computer Science, I understand your worries and anxieties while taking intro classes. I can assist you with C/C++, Python, Javascript and basic database design & implementation. Other than that, I love dancing, acting, painting and other artsy stuff :) Feel free to reach out to me even if you're confused about your major or have questions about life in general. We will try to figure out anything that's buzzing you! ",
         image: "images/tutors/usman.jpg",
         email: "ua383@nyu.edu",
         zoom: "https://nyu.zoom.us/my/usmanaliarshi"
