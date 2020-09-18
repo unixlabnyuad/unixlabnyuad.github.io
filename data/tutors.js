@@ -70,7 +70,7 @@ var tutors =  [
         id: 8,
         name: "Usman Ali",
         bio: "Hey! I'm Usman. As a person who took all sciences during highschool except Computer Science, I understand your worries and anxieties while taking intro classes. I can assist you with C/C++, Python, Javascript and basic database design & implementation. Other than that, I love dancing, acting, painting and other artsy stuff :) Feel free to reach out to me even if you're confused about your major or have questions about life in general. We will try to figure out anything that's buzzing you! ",
-        image: "images/tutors/usman.jpg",
+        image: "images/tutors/usman.JPG",
         email: "ua383@nyu.edu",
         zoom: "https://nyu.zoom.us/my/usmanaliarshi"
     },
