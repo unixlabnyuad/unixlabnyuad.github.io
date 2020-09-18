@@ -273,6 +273,6 @@ var shifts = [
         day: "tuesday",
         from: "12:00",
         to: "14:00"
-    }
+    },
 
 ];
