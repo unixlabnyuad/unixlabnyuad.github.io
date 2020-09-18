@@ -82,7 +82,7 @@ var tutors =  [
         image: "images/tutors/estelle.jpg",
         email: "eeo259@nyu.edu",
         zoom: "https://nyu.zoom.us/j/95607368119"
-    }
+    },
 
 
 ];
