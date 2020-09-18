@@ -56,6 +56,15 @@ var tutors =  [
         image: "images/tutors/Nhi.jpg",
         email: "nhi.pham@nyu.edu",
         zoom: "https://nyu.zoom.us/j/92977209395"
+    },
+
+    {
+        id: 7,
+        name: "Anas Jawed",
+        bio: "Hi! I’m Anas – a senior majoring in Computer Science with a passion for Data Science and Analytics. While data processing related questions are my forte, feel free to get in touch with me if you have any queries regarding Web Development technologies (such as NodeJS and MongoDB) or general programming in Python/JavaScript. In addition, you can always hit me up for a coffee chat about anything and everything Tech!",
+        image: "images/tutors/anas.jpg",
+        email: "anas.jawed@nyu.edu",
+        zoom: "https://nyu.zoom.us/j/5243745097"
     }
 
 ];
