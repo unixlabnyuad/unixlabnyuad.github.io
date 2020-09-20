@@ -81,7 +81,7 @@ var tutors =  [
         bio: "Hey, I'm Estelle. Feel free to reach out to me for help on Python, Java, C/C++, Linux, Web dev (HTML/CSS/Javascript) and MongoDb. Outside academic help, I am more than happy to discuss internship/job search, interview prepping, resume tips or anything on your mind!",
         image: "images/tutors/estelle.jpg",
         email: "eeo259@nyu.edu",
-        zoom: "https://nyu.zoom.us/j/95607368119"
+        zoom: "https://nyu.zoom.us/j/9213069848?pwd=cmF0VmFrTHBxVG44N2JDUzRCT0RNUT09"
     },
 
 
