@@ -84,5 +84,14 @@ var tutors =  [
         zoom: "https://nyu.zoom.us/j/9213069848?pwd=cmF0VmFrTHBxVG44N2JDUzRCT0RNUT09"
     },
 
+    {
+        id: 17,
+        name: "Nurgazy Seidaliev",
+        bio: "Hi! My name is Nurgazy - a junior who loves algorithmic problem solving. Feel free to reach out to me if you have any questions regarding C/C++, Python, Java, Javascript, SQL and basic Web Development . Apart from academics, I love snowboarding, doing taekwondo, and learning new languages(especially Spanish). Do not hesitate to reach out if you want to talk about startups, technologies, sports or anything you want!",
+        image: "images/tutors/nurgazy.jpg",
+        email: "nks369@nyu.edu",
+        zoom: "https://us04web.zoom.us/j/2641810734?pwd=di9hbEZWL1BVN2UrSGxRU2pRUCt6Zz09"
+    },
+
 
 ];
