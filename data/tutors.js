@@ -77,15 +77,6 @@ var tutors =  [
 
     {
         id: 9,
-        name: "Estelle Ocran",
-        bio: "Hey, I'm Estelle. Feel free to reach out to me for help on Python, Java, C/C++, Linux, Web dev (HTML/CSS/Javascript) and MongoDb. Outside academic help, I am more than happy to discuss internship/job search, interview prepping, resume tips or anything on your mind!",
-        image: "images/tutors/estelle.jpg",
-        email: "eeo259@nyu.edu",
-        zoom: "https://nyu.zoom.us/j/9213069848?pwd=cmF0VmFrTHBxVG44N2JDUzRCT0RNUT09"
-    },
-
-    {
-        id: 17,
         name: "Nurgazy Seidaliev",
         bio: "Hi! My name is Nurgazy - a junior who loves algorithmic problem solving. Feel free to reach out to me if you have any questions regarding C/C++, Python, Java, Javascript, SQL and basic Web Development . Apart from academics, I love snowboarding, doing taekwondo, and learning new languages(especially Spanish). Do not hesitate to reach out if you want to talk about startups, technologies, sports or anything you want!",
         image: "images/tutors/nurgazy.jpg",
