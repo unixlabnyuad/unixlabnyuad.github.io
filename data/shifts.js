@@ -1,127 +1,127 @@
 var shifts = [
     {
         id: 3,
-        day: "sunday", 
+        day: "sunday",
         from: "10:00",
         to: "12:00"
     },
     {
         id: 3,
-        day: "monday", 
+        day: "monday",
         from: "10:00",
         to: "12:00"
     },
     {
         id: 3,
-        day: "friday", 
+        day: "friday",
         from: "10:00",
         to: "12:00"
     },
     {
         id: 3,
-        day: "saturday", 
+        day: "saturday",
         from: "10:00",
         to: "12:00"
     },
     {
         id: 2,
-        day: "sunday", 
+        day: "sunday",
         from: "13:00",
         to: "16:00"
     },
     {
         id: 2,
-        day: "monday", 
+        day: "monday",
         from: "12:30",
         to: "15:30"
     },
     {
         id: 2,
-        day: "wednesday", 
+        day: "wednesday",
         from: "14:00",
         to: "17:00"
     },
     {
         id: 2,
-        day: "friday", 
+        day: "friday",
         from: "12:00",
         to: "14:00"
     },
     {
         id: 4,
-        day: "monday", 
+        day: "monday",
         from: "10:15",
         to: "12:30"
     },
     {
         id: 4,
-        day: "monday", 
+        day: "monday",
         from: "16:00",
         to: "18:00"
     },
     {
         id: 4,
-        day: "tuesday", 
+        day: "tuesday",
         from: "10:00",
         to: "11:45"
     },
     {
         id: 4,
-        day: "tuesday", 
+        day: "tuesday",
         from: "16:00",
         to: "18:00"
     },
     {
         id: 4,
-        day: "thursday", 
+        day: "thursday",
         from: "10:00",
         to: "11:45"
     },
     {
         id: 4,
-        day: "thursday", 
+        day: "thursday",
         from: "13:05",
         to: "14:20"
     },
     {
         id: 5,
-        day: "sunday", 
+        day: "sunday",
         from: "12:00",
         to: "15:00"
     },
     {
         id: 5,
-        day: "monday", 
+        day: "monday",
         from: "12:00",
         to: "14:00"
     },
     {
         id: 5,
-        day: "tuesday", 
+        day: "tuesday",
         from: "12:00",
         to: "14:00"
     },
     {
         id: 5,
-        day: "thursday", 
+        day: "thursday",
         from: "12:00",
         to: "15:00"
     },
     {
         id: 6,
-        day: "monday", 
+        day: "monday",
         from: "14:00",
         to: "15:00"
     },
     {
         id: 6,
-        day: "tuesday", 
+        day: "tuesday",
         from: "14:00",
         to: "16:00"
     },
     {
         id: 6,
-        day: "wednesday", 
+        day: "wednesday",
         from: "11:00",
         to: "14:00"
     },
@@ -163,34 +163,58 @@ var shifts = [
     },
     {
         id: 9,
-        day: "sunday", 
+        day: "sunday",
         from: "16:30",
         to: "19:30"
     },
     {
         id: 9,
-        day: "tuesday", 
+        day: "tuesday",
         from: "13:00",
         to: "14:30"
     },
     {
         id: 9,
-        day: "tuesday", 
+        day: "tuesday",
         from: "16:30",
         to: "17:30"
     },
     {
         id: 9,
-        day: "thursday", 
+        day: "thursday",
         from: "14:30",
         to: "18:30"
     },
     {
         id: 9,
-        day: "friday", 
+        day: "friday",
         from: "12:30",
         to: "15:00"
-    }
+    },
+    {
+        id: 1,
+        day: "sunday",
+        from: "10:00",
+        to: "12:00"
+    },
+    {
+        id: 1,
+        day: "wednesday",
+        from: "10:00",
+        to: "11:00"
+    },
+    {
+        id: 1,
+        day: "wednesday",
+        from: "16:00",
+        to: "19:00"
+    },
+    {
+        id: 1,
+        day: "saturday",
+        from: "12:00",
+        to: "03:00"
+    }
 
 
 ];
