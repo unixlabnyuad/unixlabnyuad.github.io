@@ -1,13 +1,5 @@
 var tutors =  [
     {
-        id: 0,
-        name: "Tofunmi Kupoluyi",
-        bio: "Hey! I am: T, TK, Tofu, Tofunmi. Feel free to call me any. I can help with C, C++, Python, Java, Web Dev (NodeJS, React, HTML, CSS), SQL and MongoDB. Double-majoring in Math so I could also try to work through some proofs with you if you're stuck with Discrete. Outside the academic realm, I love working and talking about startup projects/ideas. So, if you have an interesting idea you want to run by me, come through!",
-        image: "images/tutors/IMG_3140.JPG",
-        email: "jdk461@nyu.edu",
-        zoom: "https://nyu.zoom.us/j/3758494458"
-    },
-    {
         id: 1,
         name: "Wajahat Mirza",
         bio: "Hi all, I am Wajahat. You can call me Waji if that's easier! I am here to help you with any questions with regards to programming, machine learning, and full-stack development. You can always reach out to me for help with Python, C/C++, ML libraries, or even your resume. If you wanna chat about FinTech, Anthropology, or Formula 1, don't hesitate to contact me, I can bore you all day long!",
