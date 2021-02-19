@@ -1,19 +1,11 @@
 var tutors =  [
     {
-        id: 0,
-        name: "Tofunmi Kupoluyi",
-        bio: "Hey! I am: T, TK, Tofu, Tofunmi. Feel free to call me any. I can help with C, C++, Python, Java, Web Dev (NodeJS, React, HTML, CSS), SQL and MongoDB. Double-majoring in Math so I could also try to work through some proofs with you if you're stuck with Discrete. Outside the academic realm, I love working and talking about startup projects/ideas. So, if you have an interesting idea you want to run by me, come through!",
-        image: "images/tutors/IMG_3140.JPG",
-        email: "jdk461@nyu.edu",
-        zoom: "https://nyu.zoom.us/j/3758494458"
-    },
-    {
         id: 1,
-        name: "Wahib Kamran",
-        bio: "Hey, I'm Wahib. Please reach out to me if you have any concerns regarding Python, JavaScript, C/C++, full-stack web dev, and database management. Other than that I'm deeply in love with table tennis, exploring new places, food, and bad puns. If you also ever want to talk about the wide array (no pun intended) of things on your mind, you know who to find! :)",
-        image: "images/tutors/wahib.jpg",
-        email: "wahibkamran@nyu.edu",
-        zoom: "https://nyu.zoom.us/j/9292563079",
+        name: "Wajahat Mirza",
+        bio: "Hi all, I am Wajahat. You can call me Waji if that's easier! I am here to help you with any questions with regards to programming, machine learning, and full-stack development. You can always reach out to me for help with Python, C/C++, ML libraries, or even your resume. If you wanna chat about FinTech, Anthropology, or Formula 1, don't hesitate to contact me, I can bore you all day long!",
+        image: "images/tutors/waji.jpg",
+        email: "wajahat.mirza@nyu.edu",
+        zoom: "https://nyu.zoom.us/j/6458810058?pwd=cUtueDl0bUNqSUIvS0lQeGJVNVlSUT09",
     },
     {
         id: 2,
@@ -74,14 +66,14 @@ var tutors =  [
         email: "ua383@nyu.edu",
         zoom: "https://nyu.zoom.us/my/usmanaliarshi"
     },
-    
+
     {
         id: 9,
-        name: "Estelle Ocran",
-        bio: "Hey, I'm Estelle. Feel free to reach out to me for help on Python, Java, C/C++, Linux, Web dev (HTML/CSS/Javascript) and MongoDb. Outside academic help, I am more than happy to discuss internship/job search, interview prepping, resume tips or anything on your mind!",
-        image: "images/tutors/estelle.jpg",
-        email: "eeo259@nyu.edu",
-        zoom: "https://nyu.zoom.us/j/9213069848?pwd=cmF0VmFrTHBxVG44N2JDUzRCT0RNUT09"
+        name: "Nurgazy Seidaliev",
+        bio: "Hi! My name is Nurgazy - a junior who loves algorithmic problem solving. Feel free to reach out to me if you have any questions regarding C/C++, Python, Java, Javascript, SQL and basic Web Development . Apart from academics, I love snowboarding, doing taekwondo, and learning new languages(especially Spanish). Do not hesitate to reach out if you want to talk about startups, technologies, sports or anything you want!",
+        image: "images/tutors/nurgazy.jpg",
+        email: "nks369@nyu.edu",
+        zoom: "https://nyu.zoom.us/j/9064906233"
     },
 
 
