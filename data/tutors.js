@@ -35,7 +35,7 @@ var tutors =  [
         id: 5,
         name: "Lachlan Pham",
         bio: "I'm a senior majoring in Computer Science with a background in quantitative development at high-frequency trading firms. I'd be keen to help with the standard array of core CS and programming-heavy Engineering courses. Join me also if you're keen on interview prep for SWE or quant roles. ",
-        image: "",
+        image: "images/tutors/lachlan.jpeg",
         email: "lp2233@nyu.edu",
         zoom: "https://nyu.zoom.us/j/3618794377",
     },
