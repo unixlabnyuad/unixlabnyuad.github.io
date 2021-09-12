@@ -19,7 +19,7 @@ var tutors =  [
         id: 3,
         name: "Nati Tsegaye",
         bio: "Hi, I’m a Junior majoring in EE and minoring in CS. I can help with C++, Python and JavaScript. In addition, if you are interested in web or mobile dev and need help with the MERN stack or Flutter find me in UNIX lab and we can figure things out together.",
-        image: "images/tutors/Nati_Tsegaye.jpg",
+        image: "images/tutors/Nati_Tsegaye.png",
         email: "nht249@nyu.edu",
         zoom: "",
     },
