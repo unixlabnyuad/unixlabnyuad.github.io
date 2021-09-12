@@ -45,7 +45,7 @@ var tutors =  [
         bio: "Hi! I am a sophomore majoring in Computer Science and minoring in economics. I am passionate about coding application systems and interested in data science. I can help you with core CS concepts and coding in Python, Java or C++.",
         image: "images/tutors/KrisesMaskey.jpg",
         email: "km5062@nyu.edu",
-        zoom: "https://nyu.zoom.us/j/3618794377",
+        zoom: "https://nyu.zoom.us/j/3392538775",
     },
 
 
