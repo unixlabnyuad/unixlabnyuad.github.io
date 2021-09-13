@@ -47,6 +47,14 @@ var tutors =  [
         email: "km5062@nyu.edu",
         zoom: "https://nyu.zoom.us/j/3392538775",
     },
+    {
+        id: 7,
+        name: "Lauren",
+        bio: "Hello! I'm a super senior majoring in Computer Science and minoring in Arabic. I love to help beginners - any and all questions welcome! Come to me for help with Intro to CS and Python, C, Data Structures, and web dev!",
+        image: "images/tutors/lauren.jpg",
+        email: "lm3623@nyu.edu",
+        zoom: "https://nyu.zoom.us/j/3081958792",
+    },
 
 
 /*    {
