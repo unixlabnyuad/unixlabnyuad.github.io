@@ -10,7 +10,7 @@ var tutors =  [
     {
         id: 2,
         name: "Jun Ooi",
-        bio: "I'm a sophomore majoring in Computer Science and minoring in Interactive Media. Feel free to talk to me about front-end Web Development ( NodeJS, ReactJS, HTML, CSS ) or just a chat in general if you want to discuss anything but have no idea where to start! I'm also an avid fan of tea, but you'll find me with a cup of coffee most of the time.",
+        bio: "I'm a sophomore majoring in Computer Science and minoring in Interactive Media. Feel free to talk to me about classes ( Python/C++, Intro to CS, Discrete Math, Comm Lab, Algorithms, Data Structures ) or front-end Web Development ( ReactJS, HTML, CSS ) or just a chat in general if you want to discuss anything but have no idea where to start! I'm also an avid fan of tea, but you'll find me with a cup of coffee most of the time.",
         image: "images/tutors/JunOoi.jpg",
         email: "jmo460@nyu.edu",
         zoom: "https://nyu.zoom.us/j/2744632342?pwd=Nk5EN091bEVTWnFycWZoaXpsTlROUT09",
