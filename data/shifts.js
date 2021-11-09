@@ -2,20 +2,44 @@ var shifts = [
     {
         id: 1,
         day: "monday",
+        from: "11:00",
+        to: "12:00"
+    },
+    {
+        id: 1,
+        day: "monday",
+        from: "16:00",
+        to: "17:00"
+    },
+    {
+        id: 1,
+        day: "monday",
         from: "19:00",
-        to: "20:00"
+        to: "20:30"
+    },
+    {
+        id: 1,
+        day: "tuesday",
+        from: "14:00",
+        to: "14:30"
     },
     {
         id: 1,
         day: "tuesday",
         from: "16:30",
-        to: "18:00"
+        to: "17:30"
     },
     {
         id: 1,
         day: "tuesday",
-        from: "19:00",
+        from: "20:30",
         to: "21:30"
+    },
+    {
+        id: 1,
+        day: "wednesday",
+        from: "16:00",
+        to: "17:00"
     },
     {
         id: 1,
@@ -26,14 +50,20 @@ var shifts = [
     {
         id: 1,
         day: "thursday",
-        from: "19:00",
-        to: "21:30"
+        from: "11:00",
+        to: "11:30"
+    },
+    {
+        id: 1,
+        day: "thursday",
+        from: "14:00",
+        to: "14:30"
     },
     {
         id: 1,
         day: "friday",
-        from: "13:00",
-        to: "15:30"
+        from: "10:00",
+        to: "12:00"
     },
     {
         id: 1,
