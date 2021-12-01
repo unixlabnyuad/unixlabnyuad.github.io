@@ -71,31 +71,18 @@ var shifts = [
         from: "19:00",
         to: "21:30"
     },
-    // { jun temporary change of sunday/monday shift due to legislative day
-    //     id: 2,
-    //     day: "sunday",
-    //     from: "13:30",
-    //     to: "15:30"
-    // },
-    // {
-    //     id: 2,
-    //     day: "monday",
-    //     from: "20:30",
-    //     to: "22:30"
-    // },
-    {
+    { 
         id: 2,
         day: "sunday",
-        from: "20:30",
-        to: "22:30"
+        from: "13:30",
+        to: "15:30"
     },
     {
         id: 2,
         day: "monday",
-        from: "16:00",
-        to: "18:00"
+        from: "20:30",
+        to: "22:30"
     },
-    //////////////////
     {
         id: 2,
         day: "tuesday",
