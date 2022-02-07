@@ -1,4 +1,3 @@
-var shifts = [
   /*  1: Akhat
       2: Lachlan
       3: Khola
@@ -15,6 +14,8 @@ var shifts = [
       14: Ngoc
       15: Desmond
   */
+
+var shifts = [
     {
         id: 1,
         day: "monday",
