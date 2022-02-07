@@ -477,4 +477,18 @@ var shifts = [
         to: "17:00"
     },
 
+    // Desmond
+    {
+        id: 15,
+        day: "sunday",
+        from: "21:00",
+        to: "24:00"
+    },
+    {
+        id: 15,
+        day: "tuesday",
+        from: "22:30",
+        to: "25:00"
+    },
+
   ]
