@@ -2,7 +2,7 @@ var tutors =  [
     {
         id: 1,
         name: "Akhat Suleimenov",
-        bio: "Hi, I am a Sophomore majoring in CS. Alumni of 42 Software Engineering School in Silicon Valley. I'm happy to help you with any Algorithmic problem, Python, C/C++, CSO, SE, Intro to CS, Algorithms, Data Structures, Discrete Math, and any Math course. Also down to just talk about coding, internships, and etc.",
+        bio: "Hi, I am a Sophomore majoring in CS. Incoming Meta Software Enginner. Alumni of 42 Software Engineering School in Silicon Valley. I'm happy to help you with any Algorithmic problem, Python, C/C++, CSO, OS, ML, SE, Intro to CS, Algorithms, Data Structures, Discrete Math, and any Math course. Also down to just talk about coding, internships, and etc.",
         image: "images/tutors/Akhat.jpg",
         email: "akhat.suleimenov@nyu.edu",
         zoom: "https://nyu.zoom.us/j/6171613743?pwd=Y0lSakR5Z3pUSjB1LzJnZkcrMWJIQT09",
