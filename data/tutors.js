@@ -1,14 +1,3 @@
-var tutors =  [
-  /*  {
-        id: 1,
-        name: "Aw Samtut Or",
-        bio: "About me ... I'm happy to help you with ...",
-        image: "images/tutors/waji.jpg",
-        email: "@nyu.edu",
-        zoom: "",
-      },
-  */
-  
   /*  1: Akhat
       2: Lachlan
       3: Khola
@@ -24,6 +13,17 @@ var tutors =  [
       13: Himanshi
       14: Ngoc
       15: Desmond
+  */
+
+var tutors =  [
+  /*  {
+        id: 1,
+        name: "Aw Samtut Or",
+        bio: "About me ... I'm happy to help you with ...",
+        image: "images/tutors/waji.jpg",
+        email: "@nyu.edu",
+        zoom: "",
+      },
   */
     {
         id: 1,
