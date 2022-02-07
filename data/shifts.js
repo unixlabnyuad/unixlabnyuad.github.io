@@ -109,49 +109,25 @@ var shifts = [
         from: "11:30",
         to: "14:30"
     },
-    {
-        id: 3,
-        day: "thursday",
-        from: "11:30",
-        to: "14:30"
-    },
 
     // Khola
     {
         id: 3,
         day: "thursday",
         from: "11:30",
-        to: "24:00"
-    },
-    {
-        id: 3,
-        day: "friday",
-        from: "0:00",
-        to: "2:00"
+        to: "26:00"
     },
     {
         id: 3,
         day: "friday",
         from: "22:00",
-        to: "24:00"
-    },
-    {
-        id: 3,
-        day: "saturday",
-        from: "0:00",
-        to: "1:30"
+        to: "25:30"
     },
     {
         id: 3,
         day: "saturday",
         from: "22:00",
-        to: "24:00"
-    },
-    {
-        id: 3,
-        day: "sunday",
-        from: "0:00",
-        to: "1:30"
+        to: "25:30"
     },
 
     // Krises
@@ -165,25 +141,13 @@ var shifts = [
         id: 4,
         day: "monday",
         from: "23:00",
-        to: "24:00"
-    },
-    {
-        id: 4,
-        day: "tuesday",
-        from: "0:00",
-        to: "2:00"
+        to: "26:00"
     },
     {
         id: 4,
         day: "wednesday",
         from: "23:00",
-        to: "24:00"
-    },
-    {
-        id: 4,
-        day: "thursday",
-        from: "0:00",
-        to: "2:00"
+        to: "26:00"
     },
     {
         id: 4,
