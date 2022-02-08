@@ -1,19 +1,19 @@
-  /*  1: Akhat
-      2: Lachlan
-      3: Khola
-      4: Krises
-      5: Shehryar
-      6: Ayesha
-      7: Hasin
-      8: Mathilde
-      9: Sashank
-      10: Omar
-      11: Pedro
-      12: Sagynbek
-      13: Himanshi
-      14: Ngoc
-      15: Desmond
-  */
+/*  1: Akhat
+    2: Lachlan
+    3: Khola
+    4: Krises
+    5: Shehryar
+    6: Ayesha
+    7: Hasin
+    8: Mathilde
+    9: Sashank
+    10: Omar
+    11: Pedro
+    12: Sagynbek
+    13: Himanshi
+    14: Ngoc
+    15: Desmond
+*/
 
 var shifts = [
     // Akhat
@@ -65,7 +65,7 @@ var shifts = [
         from: "20:00",
         to: "21:30"
     },
-      {
+    {
         id: 1,
         day: "thursday",
         from: "10:30",
@@ -435,31 +435,19 @@ var shifts = [
         id: 13,
         day: "sunday",
         from: "15:00",
-        to: "17:00"
-    },
-    {
-        id: 13,
-        day: "monday",
-        from: "10:00",
-        to: "11:00"
-    },
-    {
-        id: 13,
-        day: "wednesday",
-        from: "23:30",
-        to: "24:30"
+        to: "18:00"
     },
     {
         id: 13,
         day: "thursday",
-        from: "10:30",
-        to: "12:30"
+        from: "23:30",
+        to: "26:00"
     },
     {
         id: 13,
         day: "saturday",
         from: "22:00",
-        to: "25:00"
+        to: "25:30"
     },
 
     // Ngoc
@@ -502,4 +490,4 @@ var shifts = [
         to: "25:00"
     },
 
-  ]
+]
