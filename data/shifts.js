@@ -4,10 +4,10 @@
       4: Krises
       5: Shehryar
       6: Ayesha
-      7: Omar
+      7: Hasin
       8: Mathilde
       9: Sashank
-      10: Hasin
+      10: Omar
       11: Pedro
       12: Sagynbek
       13: Himanshi
@@ -225,31 +225,48 @@ var shifts = [
         from: "15:00",
         to: "16:00"
     },
-
-    // Omar
+    // Hasin
     {
         id: 7,
         day: "monday",
-        from: "13:30",
-        to: "16:00"
+        from: "14:00",
+        to: "17:30"
+    },
+    {
+        id: 7,
+        day: "monday",
+        from: "23:30",
+        to: "24:30"
+    },
+    {
+        id: 7,
+        day: "tuesday",
+        from: "18:30",
+        to: "19:30"
     },
     {
         id: 7,
         day: "wednesday",
-        from: "13:30",
-        to: "16:00"
+        from: "17:30",
+        to: "20:00"
+    },
+    {
+        id: 7,
+        day: "wednesday",
+        from: "22:00",
+        to: "23:00"
     },
     {
         id: 7,
         day: "thursday",
-        from: "21:30",
-        to: "23:30"
+        from: "16:00",
+        to: "19:00"
     },
     {
         id: 7,
-        day: "saturday",
-        from: "17:00",
-        to: "19:30"
+        day: "friday",
+        from: "19:00",
+        to: "22:00"
     },
 
     // Mathilde
@@ -310,42 +327,30 @@ var shifts = [
         to: "14:30"
     },
 
-    // Hasin
+    // Omar
     {
         id: 10,
         day: "monday",
-        from: "14:00",
-        to: "17:30"
-    },
-    {
-        id: 10,
-        day: "monday",
-        from: "23:30",
-        to: "24:30"
+        from: "13:30",
+        to: "16:00"
     },
     {
         id: 10,
         day: "wednesday",
-        from: "17:30",
-        to: "20:00"
-    },
-    {
-        id: 10,
-        day: "wednesday",
-        from: "22:00",
-        to: "23:00"
+        from: "13:30",
+        to: "16:00"
     },
     {
         id: 10,
         day: "thursday",
-        from: "16:00",
-        to: "20:00"
+        from: "21:30",
+        to: "23:30"
     },
     {
         id: 10,
-        day: "friday",
-        from: "19:00",
-        to: "22:00"
+        day: "saturday",
+        from: "17:00",
+        to: "19:30"
     },
 
     // Pedro

@@ -4,10 +4,10 @@
     4: Krises
     5: Shehryar
     6: Ayesha
-    7: Omar
+    7: Hasin
     8: Mathilde
     9: Sashank
-    10: Hasin
+    10: Omar
     11: Pedro
     12: Sagynbek
     13: Himanshi
@@ -73,10 +73,10 @@ var tutors = [
     },
     {
         id: 7,
-        name: "Omar",
-        bio: "Coming soon!",
-        image: "images/tutors/blank.png",
-        email: "@nyu.edu",
+        name: "Hasin",
+        bio: "Hi, I'm a Junior major in CS and minoring in Applied Mathematics. I would love to help you with anything in C++, Python, JavaScript, C, Full-stack Web Development (HTML/CSS, ReactJS, NodeJS, Express), or Data Science and Machine Learning tasks. Feel free to reach out to me regarding anything related to coding or CS, be it your Data Structures/Algorithms task, internships, coding competitions or algorithmic problem solving. Even if you have no idea where to start, connect with me and let's figure something out!",
+        image: "images/tutors/hasin.jpeg",
+        email: "mhs581@nyu.edu",
     },
     {
         id: 8,
@@ -94,7 +94,7 @@ var tutors = [
     },
     {
         id: 10,
-        name: "Hasin",
+        name: "Omar",
         bio: "Coming soon!",
         image: "images/tutors/blank.png",
         email: "@nyu.edu",
