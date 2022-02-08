@@ -257,7 +257,7 @@ var shifts = [
         id: 8,
         day: "tuesday",
         from: "15:00",
-        to: "18:30"
+        to: "19:00"
     },
     {
         id: 8,
@@ -269,7 +269,7 @@ var shifts = [
         id: 8,
         day: "thursday",
         from: "15:00",
-        to: "16:30"
+        to: "16:00"
     },
 
     // Sashank
