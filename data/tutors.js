@@ -1,30 +1,30 @@
-  /*  1: Akhat
-      2: Lachlan
-      3: Khola
-      4: Krises
-      5: Shehryar
-      6: Ayesha
-      7: Omar
-      8: Mathilde
-      9: Sashank
-      10: Hasin
-      11: Pedro
-      12: Sagynbek
-      13: Himanshi
-      14: Ngoc
-      15: Desmond
-  */
+/*  1: Akhat
+    2: Lachlan
+    3: Khola
+    4: Krises
+    5: Shehryar
+    6: Ayesha
+    7: Omar
+    8: Mathilde
+    9: Sashank
+    10: Hasin
+    11: Pedro
+    12: Sagynbek
+    13: Himanshi
+    14: Ngoc
+    15: Desmond
+*/
 
-var tutors =  [
-  /*  {
-        id: 1,
-        name: "Aw Samtut Or",
-        bio: "About me ... I'm happy to help you with ...",
-        image: "images/tutors/waji.jpg",
-        email: "@nyu.edu",
-        //zoom: "",
-      },
-  */
+var tutors = [
+    /*  {
+          id: 1,
+          name: "Aw Samtut Or",
+          bio: "About me ... I'm happy to help you with ...",
+          image: "images/tutors/waji.jpg",
+          email: "@nyu.edu",
+          //zoom: "",
+        },
+    */
     {
         id: 1,
         name: "Akhat Suleimenov",
@@ -115,10 +115,10 @@ var tutors =  [
     },
     {
         id: 13,
-        name: "Himanshi",
-        bio: "Coming soon!",
-        image: "images/tutors/blank.png",
-        email: "@nyu.edu",
+        name: "Himanshi Lalwani",
+        bio: "Hello! I am a sophomore majoring in Computer Science with a minor in Applied Mathematics. I would love to help you with the core concepts covered in the foundational CS classes as well as coding in Python/C++. Join me if you’re stuck somewhere and we’ll figure things out together.",
+        image: "images/tutors/himanshi.jpeg",
+        email: "hl3937@nyu.edu",
     },
     {
         id: 14,
