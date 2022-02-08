@@ -59,10 +59,10 @@ var tutors =  [
     },
     {
         id: 5,
-        name: "Shehryar",
-        bio: "Coming soon!",
-        image: "images/tutors/blank.png",
-        email: "@nyu.edu",
+        name: "Shehryar Hanif",
+        bio: "Hello, world! As a Junior double-majoring in Computer Science and Mathematics, I’m happy to help with Python (e.g., data science frameworks), databases (e.g., MongoDB, MySQL/PostgreSQL, Firebase), and full-stack web development (e.g., HTML, CSS, JavaScript backend, React). Though it’s not my forte, we can also try exploring theory/proofing together. Love to help beginners and to talk about Formula One, video games, dystopian fiction, and hot sitcom takes!",
+        image: "images/tutors/shehryarHanif.jpg",
+        email: "shehryar.hanif@nyu.edu",
     },
     {
         id: 6,
