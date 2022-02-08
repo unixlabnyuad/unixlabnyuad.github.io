@@ -22,7 +22,7 @@
       var o = '';
       $.each(tutors, function (i, d) {
         o += '<div class="tutor">';
-        o += '<div class="image" style="border-color:' + d3.schemePaired[d.id] +'">'
+        o += '<div class="image" style="border-color:' + d3.interpolateCubehelixDefault((d.id+2)/20)  +'">'
                 + '<img style="width: 200px" src="' + d.image + '">'
                 + '<div>' + d.name + '</div>'
                 + '</div>';
@@ -142,8 +142,8 @@ shift is greyed out indicating the absence of the tutor.
           toplabelMargin = 60,
           sidelabeMargin = 60;
 
-  var weekdays = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
-  var weekShort = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  var weekdays = [ "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
+  var weekShort = [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
   var yoffset = function(t){
     if(t == "00:00"){
@@ -260,8 +260,11 @@ shift is greyed out indicating the absence of the tutor.
           .attr("rx", 3).attr("ry", 3) // rounded corners
           .attr("fill", function(d){
             //return "#1f78b4";
-            return d3.schemePaired[d.id];
+            return d3.interpolateCubehelixDefault((d.id+2)/20);
+            //return d3.interpolateViridis(d.id/15);
+            //return d3.schemePaired[d.id];
           })
+          .attr("stroke", "white")
           .attr("x", function (d) {
             var wkday = weekdays.indexOf(d.day);
             var pos = weekMargin/2 + wkday * ((cellWidth + cellMargin) * 2 + weekMargin) + xindex(d)*(cellWidth + cellMargin);
@@ -288,6 +291,7 @@ shift is greyed out indicating the absence of the tutor.
                     .duration(500)
                     .style("opacity", 0);
           })
+          /*
           .on("click", function(d){
               var dt = new Date();
               var utc = dt.getTime() + (dt.getTimezoneOffset() * 60000);
@@ -301,7 +305,7 @@ shift is greyed out indicating the absence of the tutor.
               }
               //if(d.day == weekdays[dt.getDay()])
               //window.open(tutors.find(function(t){return t.id == d.id}).zoom, '_blank');
-          });
+          });*/
   d3.csv("data/absent.csv", function (c) {
     var absent =  c.filter(function(d){
       if(dateparse(d["date"]) >= d3.timeSunday(new Date()) &&
