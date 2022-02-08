@@ -481,13 +481,13 @@ var shifts = [
         id: 15,
         day: "sunday",
         from: "21:00",
-        to: "24:00"
+        to: "23:30"
     },
     {
         id: 15,
         day: "tuesday",
-        from: "22:30",
-        to: "25:00"
+        from: "21:30",
+        to: "24:30"
     },
 
 ]
