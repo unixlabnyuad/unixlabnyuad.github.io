@@ -87,10 +87,10 @@ var tutors = [
     },
     {
         id: 9,
-        name: "Sashank",
-        bio: "Coming soon!",
-        image: "images/tutors/blank.png",
-        email: "@nyu.edu",
+        name: "Sashank Silwal",
+        bio: "Hi! I am a junior majoring in Computer Science and minoring in Interactive Media and Applied Mathematics. I would love to help you develop your skills in python, Javascript, and core CS concepts. Feel free to talk to me about Machine Learning, full-stack Web Development (MERN stack ), or just a chat in general. ",
+        image: "images/tutors/Sashank.jpg",
+        email: "ss13163@nyu.edu",
     },
     {
         id: 10,
