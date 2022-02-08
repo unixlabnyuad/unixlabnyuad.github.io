@@ -130,8 +130,8 @@ var tutors = [
     {
         id: 15,
         name: "Desmond",
-        bio: "Coming soon!",
-        image: "images/tutors/blank.png",
-        email: "@nyu.edu",
+        bio: "I’m a junior majoring in CS with a minor in Applied Math. I can help with C++, Python, JavaScript and the core computer science courses. I am passionate about mobile dev (Swift and Flutter) and web dev (MongoDB, Node+Express, Flask, React/Next) and will be happy to help you with that too. Feel free to also pass by if you just want a buddy for exam/interview prep or to discuss SWE internships.",
+        image: "images/tutors/desmond.jpg",
+        email: "doa240@nyu.edu",
     },
 ];
