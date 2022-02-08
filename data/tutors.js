@@ -102,9 +102,9 @@ var tutors =  [
     {
         id: 11,
         name: "Pedro",
-        bio: "Coming soon!",
-        image: "images/tutors/blank.png",
-        email: "@nyu.edu",
+        bio: "Hi, I am a Junior majoring in CS and Math. Feel free to come talk to me about any code or math problems you may have! I can help you with Python, C++, Data Structures, Discrete Math, and also with your math courses. Pay the Unix Lab a visit to talk about any of your assignments, personal projects, or anything CS related you may need help/guidance with!",
+        image: "images/tutors/pedro_velasquez.png",
+        email: "pv850@nyu.edu",
     },
     {
         id: 12,
