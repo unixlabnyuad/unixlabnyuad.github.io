@@ -4,10 +4,10 @@
     4: Krises
     5: Shehryar
     6: Ayesha
-    7: Omar
+    7: Hasin
     8: Mathilde
     9: Sashank
-    10: Hasin
+    10: Omar
     11: Pedro
     12: Sagynbek
     13: Himanshi
