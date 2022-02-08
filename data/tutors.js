@@ -108,10 +108,10 @@ var tutors =  [
     },
     {
         id: 12,
-        name: "Sagynbek",
-        bio: "Coming soon!",
-        image: "images/tutors/blank.png",
-        email: "@nyu.edu",
+        name: "Sagynbek Talgatuly",
+        bio: "Hey! I'm a sophomore double majoring in Computer Science and Mathematics. You can ask me about Python/C++/C programming languages, algorithmic problem-solving techniques, any CS course and anything related to Mathematics. Feel free to reach out for a help with your assignments and projects. Also, we can talk about internships, opportunities, and interview preparation.",
+        image: "images/tutors/Sagynbek.jpg",
+        email: "st4121@nyu.edu",
     },
     {
         id: 13,
