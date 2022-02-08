@@ -81,9 +81,9 @@ var tutors =  [
     {
         id: 8,
         name: "Mathilde",
-        bio: "Coming soon!",
-        image: "images/tutors/blank.png",
-        email: "@nyu.edu",
+        bio: "Hi! I'm a junior majoring in Computer Science and Mathematics with an interest in machine learning and data science. I'm happy to help with core CS concepts (algorithms & data structures), iOS app development, basic ML libraries, as well as programming with Python and C++. I also love to help beginners understand the logic behind code!",
+        image: "images/tutors/mathilde-profile-picture.jpg",
+        email: "mps565@nyu.edu",
     },
     {
         id: 9,
