@@ -95,7 +95,7 @@ var tutors = [
     {
         id: 10,
         name: "Omar",
-        bio: "Hi, I am a junior double majoring in Computer Science and Mathematics. I am happy to help you with you questions related to algorithmic problems, Intro to CS, Algorithms, Data Structures, Discrete Math, CSO,  python, C/C++, and any math course. I am also happy to talk to you and help you with Natural Language Processing and text and data analysis using python.",
+        bio: "Hi, I am a junior double majoring in Computer Science and Mathematics. I am happy to help you with questions related to algorithmic problems, Intro to CS, Algorithms, Data Structures, Discrete Math, CSO,  python, C/C++, and any math course. I am also happy to talk to you and help you with Natural Language Processing and text and data analysis using python.",
         image: "images/tutors/omar.jpg",
         email: "ok762@nyu.edu",
     },
