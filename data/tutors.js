@@ -67,9 +67,9 @@ var tutors = [
     {
         id: 6,
         name: "Ayesha",
-        bio: "Coming soon!",
-        image: "images/tutors/blank.png",
-        email: "@nyu.edu",
+        bio: "Hi!! My name is Ayesha and I am a junior majoring in Computer Science with minors in Economics and Applied Mathematics. You can reach out to me for coding in python, react, C/C++ and JavaScript and assembly; I can particularly offer help with data science and full-stack app development. Also, I’d be more than happy to just chat to help you figure out your major path/career choices/internships etc.",
+        image: "images/tutors/ayesha.jpg",
+        email: "az166@nyu.edu",
     },
     {
         id: 7,
