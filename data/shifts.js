@@ -106,14 +106,8 @@ var shifts = [
     {
         id: 2,
         day: "thursday",
-        from: "11:30",
+        from: "10:30",
         to: "14:30"
-    },
-    {
-        id: 2,
-        day: "saturday",
-        from: "10:00",
-        to: "11:30"
     },
 
     // Khola
