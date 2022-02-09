@@ -156,31 +156,31 @@ var shifts = [
         id: 4,
         day: "sunday",
         from: "10:00",
-        to: "13:00"
+        to: "12:30"
     },
     {
         id: 4,
         day: "monday",
         from: "23:00",
-        to: "26:00"
+        to: "25:00"
     },
     {
         id: 4,
         day: "wednesday",
         from: "23:00",
-        to: "26:00"
+        to: "25:00"
     },
     {
         id: 4,
         day: "friday",
         from: "10:00",
-        to: "13:00"
+        to: "12:30"
     },
     {
         id: 4,
         day: "saturday",
         from: "10:00",
-        to: "13:00"
+        to: "12:30"
     },
 
     // Shehryar
