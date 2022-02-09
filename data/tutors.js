@@ -4,10 +4,10 @@
     4: Krises
     5: Shehryar
     6: Ayesha
-    7: Omar
+    7: Hasin
     8: Mathilde
     9: Sashank
-    10: Hasin
+    10: Omar
     11: Pedro
     12: Sagynbek
     13: Himanshi
@@ -60,7 +60,7 @@ var tutors = [
     {
         id: 5,
         name: "Shehryar Hanif",
-        bio: "Hello, world! As a Junior double-majoring in Computer Science and Mathematics, I’m happy to help with Python (e.g., data science frameworks), databases (e.g., MongoDB, MySQL/PostgreSQL, Firebase), and full-stack web development (e.g., HTML, CSS, JavaScript backend, React). Though it’s not my forte, we can also try exploring theory/proofing together. Love to help beginners and to talk about Formula One, video games, dystopian fiction, and hot sitcom takes!",
+        bio: "Hello, world! As a Junior double-majoring in Computer Science and Mathematics, I’m happy to help with Python (e.g., data science frameworks), databases (e.g., MongoDB, MySQL/PostgreSQL, Firebase), and full-stack web development (e.g., HTML, CSS, JavaScript backend, React). Though it’s not my forte, we can also try exploring theory/proofing and/or C/C++ together. Love to help beginners and to talk about Formula One and hot sitcom takes!",
         image: "images/tutors/shehryarHanif.jpg",
         email: "shehryar.hanif@nyu.edu",
     },
@@ -73,10 +73,10 @@ var tutors = [
     },
     {
         id: 7,
-        name: "Omar",
-        bio: "Coming soon!",
-        image: "images/tutors/blank.png",
-        email: "@nyu.edu",
+        name: "Hasin",
+        bio: "Hi, I'm a Junior major in CS and minoring in Applied Mathematics. I would love to help you with anything in C++, Python, JavaScript, C, Full-stack Web Development (HTML/CSS, ReactJS, NodeJS, Express), or Data Science and Machine Learning tasks. Feel free to reach out to me regarding anything related to coding or CS, be it your Data Structures/Algorithms task, internships, coding competitions or algorithmic problem solving. Even if you have no idea where to start, connect with me and let's figure something out!",
+        image: "images/tutors/hasin.jpeg",
+        email: "mhs581@nyu.edu",
     },
     {
         id: 8,
@@ -87,14 +87,14 @@ var tutors = [
     },
     {
         id: 9,
-        name: "Sashank",
-        bio: "Coming soon!",
-        image: "images/tutors/blank.png",
-        email: "@nyu.edu",
+        name: "Sashank Silwal",
+        bio: "Hi! I am a junior majoring in Computer Science and minoring in Interactive Media and Applied Mathematics. I would love to help you develop your skills in python, Javascript, and core CS concepts. Feel free to talk to me about Machine Learning, full-stack Web Development (MERN stack ), or just a chat in general. ",
+        image: "images/tutors/Sashank.jpg",
+        email: "ss13163@nyu.edu",
     },
     {
         id: 10,
-        name: "Hasin",
+        name: "Omar",
         bio: "Coming soon!",
         image: "images/tutors/blank.png",
         email: "@nyu.edu",
@@ -122,16 +122,16 @@ var tutors = [
     },
     {
         id: 14,
-        name: "Ngoc",
-        bio: "Coming soon!",
-        image: "images/tutors/blank.png",
-        email: "@nyu.edu",
+        name: "Ngoc Hoang",
+        bio: "I’m a junior majoring in Computer Science and minoring in Math and Interactive Media. I like working with data and would love to help you with improving Python skills and working with various data science libraries. I’m also learning frontend web development and iOS development, so feel free to come and talk to me about JavaScript and Swift and we can figure things out together!",
+        image: "images/tutors/Ngoc.jpg",
+        email: "nnh245@nyu.edu",
     },
     {
         id: 15,
         name: "Desmond",
-        bio: "Coming soon!",
-        image: "images/tutors/blank.png",
-        email: "@nyu.edu",
+        bio: "I’m a junior majoring in CS with a minor in Applied Math. I can help with C++, Python, JavaScript and the core computer science courses. I am passionate about mobile dev (Swift and Flutter) and web dev (MongoDB, Node+Express, Flask, React/Next) and will be happy to help you with that too. Feel free to also pass by if you just want a buddy for exam/interview prep or to discuss SWE internships.",
+        image: "images/tutors/desmond.jpg",
+        email: "doa240@nyu.edu",
     },
 ];

@@ -1,19 +1,19 @@
-  /*  1: Akhat
-      2: Lachlan
-      3: Khola
-      4: Krises
-      5: Shehryar
-      6: Ayesha
-      7: Omar
-      8: Mathilde
-      9: Sashank
-      10: Hasin
-      11: Pedro
-      12: Sagynbek
-      13: Himanshi
-      14: Ngoc
-      15: Desmond
-  */
+/*  1: Akhat
+    2: Lachlan
+    3: Khola
+    4: Krises
+    5: Shehryar
+    6: Ayesha
+    7: Hasin
+    8: Mathilde
+    9: Sashank
+    10: Omar
+    11: Pedro
+    12: Sagynbek
+    13: Himanshi
+    14: Ngoc
+    15: Desmond
+*/
 
 var shifts = [
     // Akhat
@@ -54,6 +54,13 @@ var shifts = [
         to: "11:30"
     },
     {
+        // temporarily  
+        id: 1,
+        day: "wednesday",
+        from: "11:30",
+        to: "13:30"
+    },
+    {
         id: 1,
         day: "wednesday",
         from: "17:30",
@@ -65,7 +72,14 @@ var shifts = [
         from: "20:00",
         to: "21:30"
     },
-      {
+    {
+        // temporarily  
+        id: 1,
+        day: "wednesday",
+        from: "21:30",
+        to: "22:00"
+    },
+    {
         id: 1,
         day: "thursday",
         from: "10:30",
@@ -82,6 +96,13 @@ var shifts = [
         day: "friday",
         from: "13:00",
         to: "15:00"
+    },
+    {
+        // temporarily  
+        id: 1,
+        day: "saturday",
+        from: "17:00",
+        to: "19:00"
     },
 
     // Lachlan
@@ -219,31 +240,48 @@ var shifts = [
         from: "15:00",
         to: "16:00"
     },
-
-    // Omar
+    // Hasin
     {
         id: 7,
         day: "monday",
-        from: "13:30",
-        to: "16:00"
+        from: "14:00",
+        to: "17:30"
+    },
+    {
+        id: 7,
+        day: "monday",
+        from: "23:30",
+        to: "24:30"
+    },
+    {
+        id: 7,
+        day: "tuesday",
+        from: "19:00",
+        to: "20:00"
     },
     {
         id: 7,
         day: "wednesday",
-        from: "13:30",
-        to: "16:00"
+        from: "17:30",
+        to: "20:00"
+    },
+    {
+        id: 7,
+        day: "wednesday",
+        from: "22:00",
+        to: "23:00"
     },
     {
         id: 7,
         day: "thursday",
-        from: "21:30",
-        to: "23:30"
+        from: "16:00",
+        to: "19:00"
     },
     {
         id: 7,
-        day: "saturday",
-        from: "17:00",
-        to: "19:30"
+        day: "friday",
+        from: "19:00",
+        to: "22:00"
     },
 
     // Mathilde
@@ -304,42 +342,30 @@ var shifts = [
         to: "14:30"
     },
 
-    // Hasin
+    // Omar
     {
         id: 10,
         day: "monday",
-        from: "14:00",
-        to: "17:30"
-    },
-    {
-        id: 10,
-        day: "monday",
-        from: "23:30",
-        to: "24:30"
+        from: "13:30",
+        to: "16:00"
     },
     {
         id: 10,
         day: "wednesday",
-        from: "17:30",
-        to: "20:00"
-    },
-    {
-        id: 10,
-        day: "wednesday",
-        from: "22:00",
-        to: "23:00"
+        from: "13:30",
+        to: "16:00"
     },
     {
         id: 10,
         day: "thursday",
-        from: "16:00",
-        to: "20:00"
+        from: "21:30",
+        to: "23:30"
     },
     {
         id: 10,
-        day: "friday",
-        from: "19:00",
-        to: "22:00"
+        day: "saturday",
+        from: "17:00",
+        to: "19:30"
     },
 
     // Pedro
@@ -424,31 +450,19 @@ var shifts = [
         id: 13,
         day: "sunday",
         from: "15:00",
-        to: "17:00"
-    },
-    {
-        id: 13,
-        day: "monday",
-        from: "10:00",
-        to: "11:00"
-    },
-    {
-        id: 13,
-        day: "wednesday",
-        from: "23:30",
-        to: "24:30"
+        to: "18:00"
     },
     {
         id: 13,
         day: "thursday",
-        from: "10:30",
-        to: "12:30"
+        from: "23:30",
+        to: "26:00"
     },
     {
         id: 13,
         day: "saturday",
         from: "22:00",
-        to: "25:00"
+        to: "25:30"
     },
 
     // Ngoc
@@ -482,13 +496,13 @@ var shifts = [
         id: 15,
         day: "sunday",
         from: "21:00",
-        to: "24:00"
+        to: "23:00"
     },
     {
         id: 15,
         day: "tuesday",
-        from: "22:30",
+        from: "21:30",
         to: "25:00"
     },
 
-  ]
+]
