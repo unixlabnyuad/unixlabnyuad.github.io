@@ -226,7 +226,7 @@ var shifts = [
         id: 6,
         day: "tuesday",
         from: "10:00",
-        to: "16:00"
+        to: "15:00"
     },
     {
         id: 6,
