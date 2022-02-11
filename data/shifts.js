@@ -250,7 +250,7 @@ var shifts = [
     {
         id: 7,
         day: "monday",
-        from: "14:00",
+        from: "13:30",
         to: "17:30"
     },
     {
@@ -280,14 +280,14 @@ var shifts = [
     {
         id: 7,
         day: "thursday",
-        from: "16:00",
+        from: "15:30",
         to: "19:00"
     },
     {
         id: 7,
         day: "friday",
         from: "19:00",
-        to: "22:00"
+        to: "21:00"
     },
 
     // Mathilde
