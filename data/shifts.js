@@ -54,13 +54,6 @@ var shifts = [
         to: "11:30"
     },
     {
-        // temporarily  
-        id: 1,
-        day: "wednesday",
-        from: "11:30",
-        to: "13:30"
-    },
-    {
         id: 1,
         day: "wednesday",
         from: "17:30",
@@ -71,13 +64,6 @@ var shifts = [
         day: "wednesday",
         from: "20:00",
         to: "21:30"
-    },
-    {
-        // temporarily  
-        id: 1,
-        day: "wednesday",
-        from: "21:30",
-        to: "22:00"
     },
     {
         id: 1,
@@ -96,13 +82,6 @@ var shifts = [
         day: "friday",
         from: "13:00",
         to: "15:00"
-    },
-    {
-        // temporarily  
-        id: 1,
-        day: "saturday",
-        from: "17:00",
-        to: "19:00"
     },
 
     // Lachlan
@@ -250,7 +229,7 @@ var shifts = [
     {
         id: 7,
         day: "monday",
-        from: "14:00",
+        from: "13:30",
         to: "17:30"
     },
     {
@@ -280,14 +259,14 @@ var shifts = [
     {
         id: 7,
         day: "thursday",
-        from: "16:00",
+        from: "15:30",
         to: "19:00"
     },
     {
         id: 7,
         day: "friday",
         from: "19:00",
-        to: "22:00"
+        to: "21:00"
     },
 
     // Mathilde
