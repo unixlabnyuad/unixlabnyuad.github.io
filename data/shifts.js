@@ -121,13 +121,13 @@ var shifts = [
         id: 3,
         day: "friday",
         from: "22:00",
-        to: "25:30"
+        to: "26:00"
     },
     {
         id: 3,
         day: "saturday",
         from: "22:00",
-        to: "25:30"
+        to: "26:00"
     },
 
     // Krises
