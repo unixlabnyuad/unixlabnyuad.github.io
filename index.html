@@ -128,7 +128,7 @@ shift is greyed out indicating the absence of the tutor.
   var format = d3.timeFormat("%H:%M");
   var dateparse = d3.timeParse("%d/%m/%y");
   var dateformat = d3.timeFormat("%d/%m/%y");
-  var basedate = d3.timeSunday(new Date());
+  var basedate = d3.timeMonday(new Date());
 
   var minTime = d3.timeHour.offset(parse(d3.min(shifts.map(x => x.from))), -1);
   var maxTime = d3.timeHour.offset(parse(d3.max(shifts.map(x => x.to))), +1);
@@ -308,8 +308,8 @@ shift is greyed out indicating the absence of the tutor.
           });*/
   d3.csv("data/absent.csv", function (c) {
     var absent =  c.filter(function(d){
-      if(dateparse(d["date"]) >= d3.timeSunday(new Date()) &&
-              dateparse(d["date"]) < d3.timeWeek.offset(d3.timeSunday(new Date()), 1)){
+      if(dateparse(d["date"]) >= basedate &&
+              dateparse(d["date"]) <= d3.timeWeek.offset(basedate, 1)){
         return d;
       }
     });
@@ -326,7 +326,7 @@ shift is greyed out indicating the absence of the tutor.
               var wkday = dateparse(d.date).getDay();
               var xpos = 0;
               var underlay = d3.selectAll("rect.day").filter(function(b){
-                if (b.id == d.id && b.from <= d.from && b.to >= d.to && weekdays.indexOf(b.day) == wkday){
+                if (b.id == d.id && b.from <= d.from && b.to >= d.to && weekdays.indexOf(b.day) +1 == wkday ){
                   return b;
                 }
               });
