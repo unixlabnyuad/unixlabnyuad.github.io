@@ -26,12 +26,6 @@ var shifts = [
     {
         id: 1,
         day: "monday",
-        from: "17:30",
-        to: "19:00"
-    },
-    {
-        id: 1,
-        day: "monday",
         from: "20:30",
         to: "21:30"
     },
@@ -74,6 +68,12 @@ var shifts = [
     {
         id: 1,
         day: "thursday",
+        from: "16:00",
+        to: "17:30"
+    },
+    {
+        id: 1,
+        day: "thursday",
         from: "20:30",
         to: "21:30"
     },
@@ -81,26 +81,8 @@ var shifts = [
         id: 1,
         day: "friday",
         from: "12:30",
-        to: "16:00"
+        to: "14:00"
     },
-//     {
-//         id: 1,
-//         day: "saturday",
-//         from: "17:00",
-//         to: "22:00"
-//     },
-//     {
-//         id: 1,
-//         day: "sunday",
-//         from: "17:00",
-//         to: "21:30"
-//     },
-//         {
-//         id: 1,
-//         day: "sunday",
-//         from: "22:30",
-//         to: "24:00"
-//     },
     // Lachlan
     {
         id: 2,
