@@ -32,7 +32,7 @@ var shifts = [
     {
         id: 1,
         day: "tuesday",
-        from: "10:30",
+        from: "10:00",
         to: "11:30"
     },
     {
@@ -62,7 +62,7 @@ var shifts = [
     {
         id: 1,
         day: "thursday",
-        from: "10:30",
+        from: "10:00",
         to: "11:30"
     },
     {
@@ -76,12 +76,6 @@ var shifts = [
         day: "thursday",
         from: "20:30",
         to: "21:30"
-    },
-    {
-        id: 1,
-        day: "friday",
-        from: "12:30",
-        to: "14:00"
     },
     // Lachlan
     {
