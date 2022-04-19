@@ -214,15 +214,21 @@ var shifts = [
     },
     {
         id: 6,
-        day: "thursday",
-        from: "17:30",
-        to: "20:30"
+        day: "friday",
+        from: "14:30",
+        to: "16:00"
     },
     {
         id: 6,
         day: "friday",
-        from: "14:30",
-        to: "16:00"
+        from: "17:00",
+        to: "19:00"
+    },
+    {
+        id: 6,
+        day: "saturday",
+        from: "17:00",
+        to: "19:00"
     },
     // Hasin
     {
