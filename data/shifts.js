@@ -126,14 +126,20 @@ var shifts = [
     {
         id: 5,
         day: "tuesday",
-        from: "17:00",
-        to: "19:00",
+        from: "11:00",
+        to: "12:00",
     },
     {
         id: 5,
         day: "wednesday",
         from: "11:30",
         to: "17:30",
+    },
+    {
+        id: 5,
+        day: "thursday",
+        from: "17:00",
+        to: "18:00",
     },
 
     // Anas
