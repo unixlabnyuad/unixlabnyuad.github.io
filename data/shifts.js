@@ -268,9 +268,9 @@ var shifts = [
     // Phillip
     {
         id: 11,
-        day: "wednesday",
-        from: "16:00",
-        to: "17:00"
+        day: "tuesday",
+        from: "17:00",
+        to: "18:30"
     },
     {
         id: 11,
@@ -282,7 +282,7 @@ var shifts = [
         id: 11,
         day: "friday",
         from: "13:30",
-        to: "17:30"
+        to: "17:00"
     },
     //Prince
     {
@@ -414,25 +414,19 @@ var shifts = [
         id: 18,
         day: "tuesday",
         from: "10:00",
-        to: "12:00"
+        to: "12:30"
     },
     {
         id: 18,
         day: "thursday",
         from: "10:00",
-        to: "12:00"
+        to: "12:30"
     },
     {
         id: 18,
         day: "wednesday",
         from: "14:00",
-        to: "16:00"
-    },
-    {
-        id: 18,
-        day: "wednesday",
-        from: "19:00",
-        to: "21:00"
+        to: "17:00"
     },
 
 ]
