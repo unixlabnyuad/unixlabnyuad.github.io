@@ -134,9 +134,9 @@ var tutors = [
     {
         id: 17,
         name: "Vee",
-        bio: "",
-        image: "",
-        email: "",
+        bio: "I'm a senior majoring in Computer Science with a minor in Interactive Media. I can help with material covered in most computer science courses, including C/C++, Python, and JavaScript. Feel free to also reach out about choosing between careers in research and industry, web development, or working with data!",
+        image: "images/tutors/vee.jpg",
+        email: "vee.nis.ling@nyu.edu",
     },
     {
         id: 18,
