@@ -22,9 +22,9 @@ var tutors = [
     {
         id: 1,
         name: "Adilet",
-        bio: "",
-        image: "",
-        email: "",
+        bio: "Heyo. I'm a senior majoring in CS, minor in Applied Mathematics. Happy to help with any problem, core CS classes and major electives, also math. Feel free to reach out to me for coding in C/C++, functional programming in Haskell, database design, sql, algorithmic problem solving, blockchain (Solidity), who to support in F1, etc.",
+        image: "images/tutors/adilet.jpg",
+        email: "adilet@nyu.edu",
     },
     {
         id: 2,
