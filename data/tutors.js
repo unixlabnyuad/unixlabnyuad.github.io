@@ -92,9 +92,9 @@ var tutors = [
     {
         id: 11,
         name: "Phillip",
-        bio: "",
-        image: "",
-        email: "",
+        bio: "I am a senior. I study Computer Science and minor in applied maths. I can help with Python, SQL, C++, Golang. I am interested in distributed systems and DevOps. Feel free to reach out to me!",
+        image: "images/tutors/Phillip.jpg",
+        email: "pw1287@nyu.edu",
     },
     {
         id: 12,
