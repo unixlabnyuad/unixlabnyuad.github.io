@@ -82,7 +82,7 @@ var shifts = [
         to: "15:30"
     },
     // Ayesha
-  
+
     {
         id: 3,
         day: "monday",
@@ -288,14 +288,14 @@ var shifts = [
     {
         id: 12,
         day: "sunday",
-        from: "20:00",
-        to: "24:30"
+        from: "10:00",
+        to: "15:00"
     },
     {
         id: 12,
-        day: "monday",
-        from: "19:00",
-        to: "21:30"
+        day: "saturday",
+        from: "10:00",
+        to: "13:00"
     },
 
     //Sashank
