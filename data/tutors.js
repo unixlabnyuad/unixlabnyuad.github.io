@@ -30,8 +30,8 @@ var tutors = [
         id: 2,
         name: "Armaan",
         bio: "",
-        image: "",
-        email: "",
+        image: "images/tutors/armaan.jpeg",
+        email: "aa7385@nyu.edu",
     },
     {
         id: 3,
