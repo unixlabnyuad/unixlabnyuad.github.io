@@ -99,7 +99,7 @@ var tutors = [
     {
         id: 12,
         name: "Prince",
-        bio: "Hi, I'm a senior majoring in Computer Science with a minor in Applied Mathematics. I am happy to help you with anything Python, C++/C, React, MongoDB or Flask. I leetcode a lot so feel free to reach out if you want an interview prep buddy or have a chat about Formula One, SWE internships or anything in general!",
+        bio: "Hi, I'm a senior majoring in Computer Science with a minor in Applied Mathematics. I am happy to help you with anything Python, C++/C, React, MongoDB or Flask. I leetcode a lot so feel free to reach out if you want an interview prep buddy or have a chat about Formula One, SWE internships or anything in general! I can be your sneaker plug too!",
         image: "images/tutors/prince.jpg",
         email: "pla252@nyu.edu",
     },
