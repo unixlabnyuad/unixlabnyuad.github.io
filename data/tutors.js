@@ -29,7 +29,7 @@ var tutors = [
     {
         id: 2,
         name: "Armaan",
-        bio: "",
+        bio: "Hey!",
         image: "images/tutors/armaan.jpeg",
         email: "aa7385@nyu.edu",
     },
