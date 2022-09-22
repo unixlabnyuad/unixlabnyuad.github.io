@@ -29,8 +29,8 @@ var tutors = [
     {
         id: 2,
         name: "Armaan",
-        bio: "Hey! I am Armaan and I am a senior majoring in Computer Science and Film Practice with a minor in Applied Mathematics and Interactive Media. I am interested in Machine Learning, Blockchain, web and mobile development and would love to have a chat/ help you out with these topics. I am also quite interested in Entreneurship and Film Practice and can help you in that too!",
         image: "images/tutors/armaan.jpeg",
+        bio: "Hey! I am Armaan and I am a senior majoring in Computer Science and Film Practice with a minor in Applied Mathematics and Interactive Media. I am interested in Machine Learning, Blockchain, web and mobile development and would love to have a chat/ help you out with these topics. I am also a founder of a Fintech Startup and have worked in the industry as a Product Manager and Software Developer and can help you in that too!",
         email: "aa7385@nyu.edu",
     },
     {
