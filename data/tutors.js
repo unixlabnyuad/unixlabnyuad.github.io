@@ -72,7 +72,7 @@ var tutors = [
         id: 8,
         name: "Ngoc",
         bio: "I’m a senior majoring in Computer Science and minoring in Math and Interactive Media. I like working with data and would love to help you with improving Python skills and working with various data science libraries. I’m also learning frontend web development and iOS development, so feel free to come and talk to me about JavaScript and Swift and we can figure things out together!",
-        image: "images/tutors/Ngoc.jpg",
+        image: "images/tutors/Ngoc.jpeg",
         email: "nnh245@nyu.edu",
     },
     {
