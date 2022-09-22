@@ -29,7 +29,7 @@ var tutors = [
     {
         id: 2,
         name: "Armaan",
-        bio: "Hey!",
+        bio: "Hey! I am Armaan and I am a senior majoring in Computer Science and Film Practice with a minor in Applied Mathematics and Interactive Media. I am interested in Machine Learning, Blockchain, web and mobile development and would love to have a chat/ help you out with these topics. I am also quite interested in Entreneurship and Film Practice and can help you in that too!",
         image: "images/tutors/armaan.jpeg",
         email: "aa7385@nyu.edu",
     },
