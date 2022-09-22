@@ -120,9 +120,9 @@ var tutors = [
     {
         id: 15,
         name: "Shreya",
-        bio: "",
-        image: "",
-        email: "",
+        bio: "Hi everybody!! I am Shreya Goel, a senior year student at New York University Abu Dhabi pursuing a double major in Mathematics and Interactive Media with a minor in Computer Science. I really like logic and reasoning so I can help you out if you’re struggling with any of your assignments or projects. I know C++, Python, SQL, Java, HTML/CSS and Arduino. We can also work through anything else besides this if you want. I am here and happy to help :) Swing by even if you just want to say hi or chit-chat!",
+        image: "images/tutors/ShreyaGoel.jpg",
+        email: "shreya.goel@nyu.edu",
     },
     {
         id: 16,
