@@ -141,8 +141,8 @@ var tutors = [
     {
         id: 18,
         name: "Zyad",
-        bio: "",
-        image: "",
-        email: "",
+        bio: "Hello! I am Zyad, a senior double majoring in CS and Math. I can help with Python, C/C++, Javascript, Haskell, and Scala. Feel free to reach out to me with any problem!",
+        image: "images/tutors/zyad.jpg",
+        email: "zyh215@nyu.edu",
     },
 ]
