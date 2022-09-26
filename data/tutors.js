@@ -127,9 +127,9 @@ var tutors = [
     {
         id: 16,
         name: "Syed",
-        bio: "",
-        image: "",
-        email: "",
+        bio: "Hi! My name is Umair and I am a senior majoring in Computer Science and Mathematics. I can help you with Python, C++, Databases, some what with Machine Learning and Full-Stack Web Development (e.g., HTML, CSS, React, Front-end using Material UI). Come by and I will try my best to help you in any way I can or we can just have a conversation about sports!",
+        image: "images/tutors/umair.jpeg",
+        email: "sus221@nyu.edu",
     },
     {
         id: 17,
