@@ -56,10 +56,10 @@ var tutors = [
     },
     {
         id: 6,
-        name: "Muhammad A",
-        bio: "",
-        image: "",
-        email: "",
+        name: "Anas",
+        bio: "Hey! I am Computer Science major, minoring in Math and Economics. Reach out to me for help with any core CS courses, or for Web Dev (Javascript, Node.js, React, etc), Databases, Machine Learning, or exploring algorithmic problem solving. Feel free to come for a chat on navigating SWE internships or just to work together and vibe!!",
+        image: "images/tutors/muhammad_anas.jpeg",
+        email: "ma5674@nyu.edu",
     },
     {
         id: 7,
