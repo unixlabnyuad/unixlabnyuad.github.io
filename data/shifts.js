@@ -103,12 +103,6 @@ var shifts = [
         from: "20:00",
         to: "24:00"
     },
-    {
-        id: 4,
-        day: "sunday",
-        from: "20:00",
-        to: "24:30"
-    },
 
     // Lachlan
     {
