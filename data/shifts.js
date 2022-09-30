@@ -325,6 +325,12 @@ var shifts = [
         from: "17:30",
         to: "19:30"
     },
+    {
+        id: 14,
+        day: "saturday",
+        from: "16:00",
+        to: "17:30"
+    },
 
 
     // Shreya
