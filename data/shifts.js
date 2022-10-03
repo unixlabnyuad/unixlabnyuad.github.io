@@ -225,13 +225,13 @@ var shifts = [
     // Omar
     {
         id: 10,
-        day: "Monday",
+        day: "monday",
         from: "19:00",
         to: "22:00"
     },
     {
         id: 10,
-        day: "Friday",
+        day: "friday",
         from: "16:30",
         to: "18:30"
     },
