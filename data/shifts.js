@@ -86,8 +86,8 @@ var shifts = [
     {
         id: 3,
         day: "wednesday",
-        from: "22:00",
-        to: "23:30"
+        from: "19:00",
+        to: "20:30"
     },
     {
         id: 3,
@@ -355,27 +355,27 @@ var shifts = [
     // Umair
     {
         id: 16,
-        day: "sunday",
-        from: "11:30",
-        to: "13:00"
-    },
-    {
-        id: 16,
         day: "monday",
-        from: "12:00",
+        from: "11:30",
         to: "16:00"
     },
     {
         id: 16,
         day: "wednesday",
-        from: "21:00",
-        to: "23:30"
+        from: "20:00",
+        to: "21:00"
     },
     {
         id: 16,
         day: "friday",
         from: "12:00",
         to: "13:30"
+    },
+    {
+        id: 16,
+        day: "friday",
+        from: "15:30",
+        to: "16:30"
     },
 
     // Vee
