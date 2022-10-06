@@ -86,8 +86,8 @@ var shifts = [
     {
         id: 3,
         day: "wednesday",
-        from: "22:00",
-        to: "23:30"
+        from: "19:00",
+        to: "20:30"
     },
     {
         id: 3,
@@ -103,31 +103,19 @@ var shifts = [
         from: "20:00",
         to: "24:00"
     },
-    {
-        id: 4,
-        day: "sunday",
-        from: "20:00",
-        to: "24:30"
-    },
 
     // Lachlan
     {
         id: 5,
         day: "tuesday",
         from: "11:00",
-        to: "12:00",
+        to: "13:00",
     },
     {
         id: 5,
         day: "wednesday",
         from: "11:30",
         to: "17:30",
-    },
-    {
-        id: 5,
-        day: "thursday",
-        from: "17:00",
-        to: "18:00",
     },
 
     // Anas
@@ -237,15 +225,15 @@ var shifts = [
     // Omar
     {
         id: 10,
-        day: "tuesday",
-        from: "20:30",
-        to: "23:00"
+        day: "monday",
+        from: "19:00",
+        to: "22:00"
     },
     {
         id: 10,
-        day: "thursday",
-        from: "20:30",
-        to: "23:00"
+        day: "friday",
+        from: "16:30",
+        to: "18:30"
     },
     {
         id: 10,
@@ -317,7 +305,7 @@ var shifts = [
         id: 14,
         day: "monday",
         from: "22:00",
-        to: "25:00"
+        to: "26:00"
     },
     {
         id: 14,
@@ -328,14 +316,20 @@ var shifts = [
     {
         id: 14,
         day: "wednesday",
-        from: "24:00",
+        from: "23:30",
         to: "26:00"
     },
     {
         id: 14,
         day: "thursday",
-        from: "18:30",
+        from: "17:30",
         to: "19:30"
+    },
+    {
+        id: 14,
+        day: "saturday",
+        from: "16:00",
+        to: "17:30"
     },
 
 
@@ -361,27 +355,27 @@ var shifts = [
     // Umair
     {
         id: 16,
-        day: "sunday",
-        from: "11:30",
-        to: "13:00"
-    },
-    {
-        id: 16,
         day: "monday",
-        from: "12:00",
+        from: "11:30",
         to: "16:00"
     },
     {
         id: 16,
         day: "wednesday",
-        from: "21:00",
-        to: "23:30"
+        from: "20:00",
+        to: "21:00"
     },
     {
         id: 16,
         day: "friday",
         from: "12:00",
         to: "13:30"
+    },
+    {
+        id: 16,
+        day: "friday",
+        from: "15:30",
+        to: "16:30"
     },
 
     // Vee
