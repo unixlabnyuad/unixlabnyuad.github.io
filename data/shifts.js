@@ -211,15 +211,15 @@ var shifts = [
     },
     {
         id: 9,
-        day: "thursday",
-        from: "22:00",
-        to: "00:00"
+        day: "tuesday",
+        from: "20:30",
+        to: "23:00"
     },
     {
         id: 9,
-        day: "friday",
+        day: "monday",
         from: "9:30",
-        to: "12:00"
+        to: "11:30"
     },
 
     // Omar
