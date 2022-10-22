@@ -257,8 +257,8 @@ var shifts = [
     {
         id: 11,
         day: "friday",
-        from: "13:30",
-        to: "17:00"
+        from: "09:30",
+        to: "12:00"
     },
     //Prince
     {
