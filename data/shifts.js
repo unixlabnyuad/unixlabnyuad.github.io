@@ -199,9 +199,9 @@ var shifts = [
     // Nhi
     {
         id: 9,
-        day: "tuesday",
-        from: "9:30",
-        to: "11:00"
+        day: "monday",
+        from: "19:00",
+        to: "20:30"
     },
     {
         id: 9,
