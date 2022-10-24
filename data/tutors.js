@@ -56,10 +56,10 @@ var tutors = [
     },
     {
         id: 6,
-        name: "Muhammad A",
-        bio: "",
-        image: "",
-        email: "",
+        name: "Anas",
+        bio: "Hey! I am Computer Science major, minoring in Math and Economics. Reach out to me for help with any core CS courses, or for Web Dev (Javascript, Node.js, React, etc), Databases, Machine Learning, or exploring algorithmic problem solving. Feel free to come for a chat on navigating SWE internships or just to work together and vibe!!",
+        image: "images/tutors/muhammad_anas.jpeg",
+        email: "ma5674@nyu.edu",
     },
     {
         id: 7,
@@ -72,7 +72,7 @@ var tutors = [
         id: 8,
         name: "Ngoc",
         bio: "I’m a senior majoring in Computer Science and minoring in Math and Interactive Media. I like working with data and would love to help you with improving Python skills and working with various data science libraries. I’m also learning frontend web development and iOS development, so feel free to come and talk to me about JavaScript and Swift and we can figure things out together!",
-        image: "images/tutors/Ngoc.jpg",
+        image: "images/tutors/Ngoc.jpeg",
         email: "nnh245@nyu.edu",
     },
     {
@@ -99,7 +99,7 @@ var tutors = [
     {
         id: 12,
         name: "Prince",
-        bio: "Hi, I'm a senior majoring in Computer Science with a minor in Applied Mathematics. I am happy to help you with anything Python, C++/C, React, MongoDB or Flask. I leetcode a lot so feel free to reach out if you want an interview prep buddy or have a chat about Formula One, SWE internships or anything in general!",
+        bio: "Hi, I'm a senior majoring in Computer Science with a minor in Applied Mathematics. I am happy to help you with anything Python, C++/C, React, MongoDB or Flask. I leetcode a lot so feel free to reach out if you want an interview prep buddy or have a chat about Formula One, SWE internships or anything in general! I can be your sneaker plug too!",
         image: "images/tutors/prince.jpg",
         email: "pla252@nyu.edu",
     },
@@ -120,16 +120,16 @@ var tutors = [
     {
         id: 15,
         name: "Shreya",
-        bio: "",
-        image: "",
-        email: "",
+        bio: "Hi everybody!! I am Shreya Goel, a senior year student at NYUAD pursuing a double major in Mathematics and Interactive Media with a minor in Computer Science. I really like logic and reasoning so I can help you out if you’re struggling with any of your assignments or projects. I know C++, Python, SQL, Java, HTML/CSS and Arduino. We can also work through anything else besides this if you want. I am here and happy to help. Swing by even if you want to chit chat or just say hi :)",
+        image: "images/tutors/ShreyaGoel.jpg",
+        email: "shreya.goel@nyu.edu",
     },
     {
         id: 16,
         name: "Syed",
-        bio: "",
-        image: "",
-        email: "",
+        bio: "Hi! My name is Umair and I am a senior majoring in Computer Science and Mathematics. I can help you with Python, C++, Databases, some what with Machine Learning and Full-Stack Web Development (e.g., HTML, CSS, React, Front-end using Material UI). Come by and I will try my best to help you in any way I can or we can just have a conversation about sports!",
+        image: "images/tutors/umair.jpeg",
+        email: "sus221@nyu.edu",
     },
     {
         id: 17,
@@ -141,8 +141,8 @@ var tutors = [
     {
         id: 18,
         name: "Zyad",
-        bio: "",
-        image: "",
-        email: "",
+        bio: "Hello! I am Zyad, a senior double majoring in CS and Math. I can help with Python, C/C++, Javascript, Haskell, and Scala. Feel free to reach out to me with any problem!",
+        image: "images/tutors/zyad.jpg",
+        email: "zyh215@nyu.edu",
     },
 ]
