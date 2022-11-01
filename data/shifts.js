@@ -75,13 +75,13 @@ var shifts = [
         id: 3,
         day: "thursday",
         from: "16:00",
-        to: "17:30"
+        to: "19:00"
     },
-    {
+   {
         id: 3,
-        day: "tuesday",
-        from: "17:30",
-        to: "20:30"
+        day: "wednesday",
+        from: "09:00",
+        to: "10:00"
     },
     {
         id: 3,
@@ -93,7 +93,7 @@ var shifts = [
         id: 3,
         day: "friday",
         from: "12:00",
-        to: "14:00"
+        to: "14:30"
     },
 
     // Desmond
