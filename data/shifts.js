@@ -4,7 +4,6 @@
     4: Desmond
     5: Lachlan
     6: Muhammad Anas
-    7: Muhammad Hasin Shabbir
     8: Ngoc
     9: Nhi
     10: Omar
@@ -148,32 +147,6 @@ var shifts = [
         day: "thursday",
         from: "15:00",
         to: "16:00"
-    },
-
-    // Hasin
-    {
-        id: 7,
-        day: "monday",
-        from: "17:00",
-        to: "19:00"
-    },
-    {
-        id: 7,
-        day: "tuesday",
-        from: "13:00",
-        to: "15:00"
-    },
-    {
-        id: 7,
-        day: "wednesday",
-        from: "17:00",
-        to: "19:00"
-    },
-    {
-        id: 7,
-        day: "thursday",
-        from: "18:00",
-        to: "20:00"
     },
 
     //Ngoc
