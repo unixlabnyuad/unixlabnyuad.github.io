@@ -4,7 +4,6 @@
     4: Desmond
     5: Lachlan
     6: Muhammad Anas
-    7: Muhammad Hasin Shabbir
     8: Ngoc
     9: Nhi
     10: Omar
