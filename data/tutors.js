@@ -62,13 +62,6 @@ var tutors = [
         email: "ma5674@nyu.edu",
     },
     {
-        id: 7,
-        name: "Hasin",
-        bio: "Hi, I'm a senior majoring in CS and minoring in Applied Mathematics. I would love to help you with anything in C++, Python, JavaScript, C, Full-stack Web Development (HTML/CSS, ReactJS, NodeJS, Express), or Data Science and Machine Learning tasks. Feel free to reach out to me regarding anything related to coding or CS, be it your Data Structures/Algorithms task, internships, coding competitions or algorithmic problem solving. Even if you have no idea where to start, connect with me and let's figure something out!",
-        image: "images/tutors/hasin.jpeg",
-        email: "mhs581@nyu.edu",
-    },
-    {
         id: 8,
         name: "Ngoc",
         bio: "I’m a senior majoring in Computer Science and minoring in Math and Interactive Media. I like working with data and would love to help you with improving Python skills and working with various data science libraries. I’m also learning frontend web development and iOS development, so feel free to come and talk to me about JavaScript and Swift and we can figure things out together!",
