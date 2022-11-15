@@ -361,6 +361,12 @@ var shifts = [
     // Zyad
     {
         id: 18,
+        day: "monday",
+        from: "9:30",
+        to: "11:30"
+    },
+    {
+        id: 18,
         day: "tuesday",
         from: "10:10",
         to: "12:40"
