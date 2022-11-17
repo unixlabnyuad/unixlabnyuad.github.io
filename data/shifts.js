@@ -332,12 +332,6 @@ var shifts = [
         from: "12:00",
         to: "13:30"
     },
-    {
-        id: 16,
-        day: "friday",
-        from: "15:30",
-        to: "16:30"
-    },
 
     // Vee
     {
