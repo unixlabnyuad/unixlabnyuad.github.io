@@ -4,7 +4,6 @@
     4: Desmond
     5: Lachlan
     6: Muhammad Anas
-    7: Muhammad Hasin Shabbir
     8: Ngoc
     9: Nhi
     10: Omar
@@ -75,13 +74,13 @@ var shifts = [
         id: 3,
         day: "thursday",
         from: "16:00",
-        to: "17:30"
+        to: "19:00"
     },
-    {
+   {
         id: 3,
-        day: "tuesday",
-        from: "17:30",
-        to: "20:30"
+        day: "wednesday",
+        from: "09:00",
+        to: "10:00"
     },
     {
         id: 3,
@@ -93,7 +92,7 @@ var shifts = [
         id: 3,
         day: "friday",
         from: "12:00",
-        to: "14:00"
+        to: "14:30"
     },
 
     // Desmond
@@ -101,8 +100,15 @@ var shifts = [
         id: 4,
         day: "saturday",
         from: "20:00",
-        to: "24:00"
+        to: "23:00"
     },
+    {
+        id: 4,
+        day: "sunday",
+        from: "15:00",
+        to: "20:00"
+    },
+
 
     // Lachlan
     {
@@ -150,32 +156,6 @@ var shifts = [
         to: "16:00"
     },
 
-    // Hasin
-    {
-        id: 7,
-        day: "monday",
-        from: "17:00",
-        to: "19:00"
-    },
-    {
-        id: 7,
-        day: "tuesday",
-        from: "13:00",
-        to: "15:00"
-    },
-    {
-        id: 7,
-        day: "wednesday",
-        from: "17:00",
-        to: "19:00"
-    },
-    {
-        id: 7,
-        day: "thursday",
-        from: "18:00",
-        to: "20:00"
-    },
-
     //Ngoc
     {
         id: 8,
@@ -200,26 +180,26 @@ var shifts = [
     {
         id: 9,
         day: "tuesday",
+        from: "9:00",
+        to: "11:00"
+    },
+    {
+        id: 9,
+        day: "tuesday",
+        from: "13:00",
+        to: "15:00"
+    },
+    {
+        id: 9,
+        day: "saturday",
         from: "9:30",
         to: "11:00"
     },
     {
         id: 9,
-        day: "wednesday",
-        from: "9:30",
+        day: "monday",
+        from: "9:00",
         to: "11:30"
-    },
-    {
-        id: 9,
-        day: "thursday",
-        from: "22:00",
-        to: "00:00"
-    },
-    {
-        id: 9,
-        day: "friday",
-        from: "9:30",
-        to: "12:00"
     },
 
     // Omar
@@ -246,7 +226,7 @@ var shifts = [
         id: 11,
         day: "tuesday",
         from: "17:00",
-        to: "18:30"
+        to: "19:00"
     },
     {
         id: 11,
@@ -257,8 +237,8 @@ var shifts = [
     {
         id: 11,
         day: "friday",
-        from: "13:30",
-        to: "17:00"
+        from: "09:00",
+        to: "12:00"
     },
     //Prince
     {
@@ -304,7 +284,7 @@ var shifts = [
     {
         id: 14,
         day: "monday",
-        from: "22:00",
+        from: "22:30",
         to: "26:00"
     },
     {
@@ -319,19 +299,6 @@ var shifts = [
         from: "23:30",
         to: "26:00"
     },
-    {
-        id: 14,
-        day: "thursday",
-        from: "17:30",
-        to: "19:30"
-    },
-    {
-        id: 14,
-        day: "saturday",
-        from: "16:00",
-        to: "17:30"
-    },
-
 
     // Shreya
     {
@@ -357,25 +324,13 @@ var shifts = [
         id: 16,
         day: "monday",
         from: "11:30",
-        to: "16:00"
-    },
-    {
-        id: 16,
-        day: "wednesday",
-        from: "20:00",
-        to: "21:00"
+        to: "15:30"
     },
     {
         id: 16,
         day: "friday",
         from: "12:00",
         to: "13:30"
-    },
-    {
-        id: 16,
-        day: "friday",
-        from: "15:30",
-        to: "16:30"
     },
 
     // Vee
@@ -392,6 +347,12 @@ var shifts = [
         to: "14:00"
     },
     // Zyad
+    {
+        id: 18,
+        day: "monday",
+        from: "9:30",
+        to: "11:30"
+    },
     {
         id: 18,
         day: "tuesday",

@@ -4,7 +4,6 @@
     4: Desmond
     5: Lachlan
     6: Muhammad Anas
-    7: Muhammad Hasin Shabbir
     8: Ngoc
     9: Nhi
     10: Omar
@@ -60,13 +59,6 @@ var tutors = [
         bio: "Hey! I am Computer Science major, minoring in Math and Economics. Reach out to me for help with any core CS courses, or for Web Dev (Javascript, Node.js, React, etc), Databases, Machine Learning, or exploring algorithmic problem solving. Feel free to come for a chat on navigating SWE internships or just to work together and vibe!!",
         image: "images/tutors/muhammad_anas.jpeg",
         email: "ma5674@nyu.edu",
-    },
-    {
-        id: 7,
-        name: "Hasin",
-        bio: "Hi, I'm a senior majoring in CS and minoring in Applied Mathematics. I would love to help you with anything in C++, Python, JavaScript, C, Full-stack Web Development (HTML/CSS, ReactJS, NodeJS, Express), or Data Science and Machine Learning tasks. Feel free to reach out to me regarding anything related to coding or CS, be it your Data Structures/Algorithms task, internships, coding competitions or algorithmic problem solving. Even if you have no idea where to start, connect with me and let's figure something out!",
-        image: "images/tutors/hasin.jpeg",
-        email: "mhs581@nyu.edu",
     },
     {
         id: 8,
