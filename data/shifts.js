@@ -74,7 +74,13 @@ var shifts = [
         id: 3,
         day: "thursday",
         from: "16:00",
-        to: "19:00"
+        to: "18:00"
+    },
+    {
+        id: 3,
+        day: "thursday",
+        from: "09:00",
+        to: "10:00"
     },
    {
         id: 3,
@@ -125,12 +131,6 @@ var shifts = [
     },
 
     // Anas
-    {
-        id: 6,
-        day: "monday",
-        from: "16:00",
-        to: "17:00"
-    },
     {
         id: 6,
         day: "monday",
@@ -185,15 +185,15 @@ var shifts = [
     },
     {
         id: 9,
-        day: "tuesday",
-        from: "13:00",
-        to: "15:00"
+        day: "monday",
+        from: "19:00",
+        to: "20:30"
     },
     {
         id: 9,
         day: "sunday",
-        from: "10:00",
-        to: "11:30"
+        from: "9:00",
+        to: "11:00"
     },
     {
         id: 9,
@@ -347,12 +347,6 @@ var shifts = [
         to: "14:00"
     },
     // Zyad
-    {
-        id: 18,
-        day: "monday",
-        from: "9:30",
-        to: "11:30"
-    },
     {
         id: 18,
         day: "tuesday",

@@ -325,7 +325,7 @@ shift is greyed out indicating the absence of the tutor.
               var wkday = dateparse(d.date).getDay();
               var xpos = 0;
               var underlay = d3.selectAll("rect.day").filter(function(b){
-                if (b.id == d.id && b.from <= d.from && b.to >= d.to && weekdays.indexOf(b.day) +1 == wkday ){
+                if (b.id == d.id && b.from <= d.from && b.to >= d.to && (weekdays.indexOf(b.day) +1)%7 == wkday ){
                   return b;
                 }
               });
