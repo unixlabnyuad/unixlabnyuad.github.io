@@ -316,7 +316,7 @@ var shifts = [
     {
         id: 15,
         day: "saturday",
-        from: "11:00",
+        from: "12:00",
         to: "14:00"
     },
     // Umair
