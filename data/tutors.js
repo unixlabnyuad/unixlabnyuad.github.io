@@ -2,11 +2,9 @@
     2: Armaan
     3: Ayesha
     4: Desmond
-    5: Lachlan
     6: Muhammad Anas
     8: Ngoc
     9: Nhi
-    10: Omar
     11: Phillip
     12: Prince
     13: Sashank
@@ -47,13 +45,6 @@ var tutors = [
         email: "doa240@nyu.edu",
     },
     {
-        id: 5,
-        name: "Lachlan",
-        bio: "I'm a super-senior majoring in Computer Science with a background in quantitative development at high-frequency trading firms. I'm happy to help with the standard array of core CS and programming-heavy Engineering courses. Join me also if you're keen on interview prep for SWE or quant roles. ",
-        image: "images/tutors/lachlan.jpeg",
-        email: "lp2233@nyu.edu",
-    },
-    {
         id: 6,
         name: "Anas",
         bio: "Hey! I am Computer Science major, minoring in Math and Economics. Reach out to me for help with any core CS courses, or for Web Dev (Javascript, Node.js, React, etc), Databases, Machine Learning, or exploring algorithmic problem solving. Feel free to come for a chat on navigating SWE internships or just to work together and vibe!!",
@@ -73,13 +64,6 @@ var tutors = [
         bio: "Hi there! I'm Nhi and I can help with Java, Python, C/C++, and SQL. Feel free to reach out to me with any problem (and we will struggle through it!) or just simply to say hi!",
         image: "images/tutors/Nhi.jpg",
         email: "nhi.pham@nyu.edu",
-    },
-    {
-        id: 10,
-        name: "Omar",
-        bio: "Hi, I am a senior double majoring in Computer Science and Mathematics. I am happy to help you with questions related to algorithmic problems, Intro to CS, Algorithms, Data Structures, Discrete Math, CSO,  python, C/C++, and any math course. I am also happy to talk to you and help you with Natural Language Processing and text and data analysis using python.",
-        image: "images/tutors/omar.jpg",
-        email: "ok762@nyu.edu",
     },
     {
         id: 11,
