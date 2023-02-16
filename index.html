@@ -3,111 +3,156 @@
   <title>Unix Lab NYUAD</title>
   <meta charset="utf-8" />
   <meta name="title" property="og:title" content="Unix Lab NYUAD" />
-  <meta name="description" property="og:description" content="The Unix Lab is the Computer Science Academic Space at NYU Abu Dhabi. Come over for help from our friendly team of peer tutors on assignments, CS concepts, personal tech projects and even non-CS courses." />
-  <meta name="google-site-verification" content="tuiv3yx1GS7lcX54HAm5Jbyr90qoUd-vAnRcBs9Qn1Q" />
-  <meta name="google-site-verification" content="3Ha4MoETmH2x9SVBhL-gevG4ic2lN8cvkXGgbYI5fGM" />
-  <style>
-
-  </style>
+  <meta
+    name="description"
+    property="og:description"
+    content="The Unix Lab is the Computer Science Academic Space at NYU Abu Dhabi. Come over for help from our friendly team of peer tutors on assignments, CS concepts, personal tech projects and even non-CS courses."
+  />
+  <meta
+    name="google-site-verification"
+    content="tuiv3yx1GS7lcX54HAm5Jbyr90qoUd-vAnRcBs9Qn1Q"
+  />
+  <meta
+    name="google-site-verification"
+    content="3Ha4MoETmH2x9SVBhL-gevG4ic2lN8cvkXGgbYI5fGM"
+  />
+  <style></style>
   <script src="data/tutors.js"></script>
   <script src="data/shifts.js"></script>
   <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="styles.css" type="text/css" />
 
   <script type="text/javascript">
     $(document).ready(function () {
-      var o = '';
+      var o = "";
       $.each(tutors, function (i, d) {
         o += '<div class="tutor">';
-        o += '<div class="image" style="border-color:' + d3.interpolateCubehelixDefault((d.id+2)/22)  +'">'
-                + '<img style="width: 200px" src="' + d.image + '">'
-                + '<div>' + d.name + '</div>'
-                + '</div>';
+        o +=
+          '<div class="image" style="border-color:' +
+          d3.interpolateCubehelixDefault((d.id + 2) / 22) +
+          '">' +
+          '<img style="width: 200px" src="' +
+          d.image +
+          '">' +
+          "<div>" +
+          d.name +
+          "</div>" +
+          "</div>";
         o += '<div class="content">';
         //    + '<h2 class="name">' + d.name + '</h2>';
         //o += '<div><svg width="200px" height="5px"><rect fill="' + d3.schemePaired[d.id]+'" width="200px" height="5px" x="0", y="0"></rect></svg></div>';
         //o += '<p class="email">' + d.email + '</p>';
-        o += '<p class="bio">' + d.bio + '</p>';
-        o += '</div></div>';
+        o += '<p class="bio">' + d.bio + "</p>";
+        o += "</div></div>";
         //console.log(o);
       });
-      $('#tutors').html(o);
+      $("#tutors").html(o);
     });
   </script>
 </head>
 <body>
-<div class ="menu">
-  <a href = "#about-label" style="float:left">The Unix Lab</a>
-  <a href = "#joinus">Join Us</a>
-  <a href = "#feedback">Feedback</a>
-  <a href = "#rules-label">Rules</a>
-  <a href = "#tutors-label">Tutors</a>
-  <a href = "#schedule-label">Schedule</a>
-</div>
-<div id="spotlight">
-  <ul class="spots" id="spots">
-    <li><img height="300px" src="images/spotlights/work-by-light.jpg"></li>
-    <li><img height="300px" src="images/spotlights/couch-chat.jpg"></li>
-    <li><img height="300px" src="images/spotlights/hard-at-work.jpg"></li>
-    <li><img height="300px" src="images/spotlights/group-work-2.jpg"></li>
-    <li><img height="300px" src="images/spotlights/group-work-1.jpg"></li>
-  </ul>
-</div>
+  <div class="menu">
+    <a href="#about-label" style="float: left">The Unix Lab</a>
+    <a href="#joinus">Join Us</a>
+    <a href="#feedback">Feedback</a>
+    <a href="#rules-label">Rules</a>
+    <a href="#tutors-label">Tutors</a>
+    <a href="#schedule-label">Schedule</a>
+  </div>
+  <div id="spotlight">
+    <ul class="spots" id="spots">
+      <li><img height="300px" src="images/spotlights/work-by-light.jpg" /></li>
+      <li><img height="300px" src="images/spotlights/couch-chat.jpg" /></li>
+      <li><img height="300px" src="images/spotlights/hard-at-work.jpg" /></li>
+      <li><img height="300px" src="images/spotlights/group-work-2.jpg" /></li>
+      <li><img height="300px" src="images/spotlights/group-work-1.jpg" /></li>
+    </ul>
+  </div>
 
-<div id="about">
-  <p>The Unix Lab is the Computer Science Academic Space at NYU Abu Dhabi.
-    Come over for help from our friendly team of peer tutors on assignments,
-    CS concepts, personal tech projects and even non-CS courses.</p>
+  <div id="about">
+    <p>
+      The Unix Lab is the Computer Science Academic Space at NYU Abu Dhabi. Come
+      over for help from our friendly team of peer tutors on assignments, CS
+      concepts, personal tech projects and even non-CS courses.
+    </p>
 
-  <p>We are located at the third floor of C2 right next to the library.
-    This is your space to come work, collaborate and learn. The Unix Lab houses
-    several work stations with dual monitors to connect your laptop to and a Mac server.</p>
-</div>
+    <p>
+      We are located at the third floor of C2 right next to the library. This is
+      your space to come work, collaborate and learn. The Unix Lab houses
+      several work stations with dual monitors to connect your laptop to and a
+      Mac server.
+    </p>
+  </div>
 
-<h2 id="schedule-label">Peer Tutoring Schedule</h2>
-<div id="tutors-gist">
-  
-  <p><b>Please Check-In using NYU Connect</b></p>
+  <h2 id="schedule-label">Peer Tutoring Schedule</h2>
+  <div id="tutors-gist">
+    <p>
+      <b
+        >Please Check-In using
+        <a href="https://qrs.ly/3negwts">NYU Connect</a></b
+      >
+    </p>
 
-<!--   <p>The Unix Lab is a walk-in learning center. Tutors offer assistance on a first-come
+    <img
+      src="images/schedule/calendar.png"
+      alt="calendar"
+      width="100%"
+      height="100%"
+    />
+
+    <!--   <p>The Unix Lab is a walk-in learning center. Tutors offer assistance on a first-come
     first-served basis during their scheduled shifts. No appointments are required. </p>
 
  <p> If a tutor cannot make a specific shift, we will try to provide a replacement, otherwise the
 shift is greyed out indicating the absence of the tutor.
   </p> -->
-</div>
+  </div>
 
-<!-- uncomment the following when the term starts! -->
-<!-- <div id="schedule"></div> -->
+  <!-- uncomment the following when the term starts! -->
+  <!-- <div id="schedule"></div> -->
 
-<h2 id="tutors-label">Peer Tutors</h2>
-<div id="tutors">
+  <h2 id="tutors-label">Peer Tutors</h2>
+  <div id="tutors"></div>
+  <!-- end uncomment here -->
 
-</div> 
-<!-- end uncomment here -->
-
-<h2 id = "rules-label">Unix Lab Rules</h2>
-<div id="rules">
-  <p>The Unix lab is a shared 24/7 learning space. All NYUAD students are welcome to use the lab and seek assistance
-  from the lab tutors during scheduled tutor hours. The following rules apply:</p>
-  <ul>
-    <li>Bring your coding projects, problem sets, books and learn together.</li>
-    <li>Respect the lab tutors and other students using the space.</li>
-    <li>Tutors are available to support and assist you and others. They do not solve assignments. During busy hours, tutors may not
-      have enough time to help you.
-      If you need special or further assistance beyond what the tutors offer, please talk to your course instructors.
+  <h2 id="rules-label">Unix Lab Rules</h2>
+  <div id="rules">
+    <p>
+      The Unix lab is a shared 24/7 learning space. All NYUAD students are
+      welcome to use the lab and seek assistance from the lab tutors during
+      scheduled tutor hours. The following rules apply:
+    </p>
+    <ul>
+      <li>
+        Bring your coding projects, problem sets, books and learn together.
       </li>
-    <li>Keep the lab a welcome space: do not litter, hog tables, leave personal items around, play loud music, etc.
-      Personal items left in the lab will be discarded. Tutors may ask you to clear a study/desk space for others,
-      lower your music or have a softer group discussion. </li>
-    <li>Reference books in the unix lab library should remain the lab. Please reshelf the books after you have read them.</li>
-  </ul>
-</div>
+      <li>Respect the lab tutors and other students using the space.</li>
+      <li>
+        Tutors are available to support and assist you and others. They do not
+        solve assignments. During busy hours, tutors may not have enough time to
+        help you. If you need special or further assistance beyond what the
+        tutors offer, please talk to your course instructors.
+      </li>
+      <li>
+        Keep the lab a welcome space: do not litter, hog tables, leave personal
+        items around, play loud music, etc. Personal items left in the lab will
+        be discarded. Tutors may ask you to clear a study/desk space for others,
+        lower your music or have a softer group discussion.
+      </li>
+      <li>
+        Reference books in the unix lab library should remain the lab. Please
+        reshelf the books after you have read them.
+      </li>
+    </ul>
+  </div>
 
-<!-- <h2 id="feedback-label">Feedback</h2>
+  <!-- <h2 id="feedback-label">Feedback</h2>
 <div id="feedback">
   <p>If you have any questions or comments regarding the Unix Lab or the tutors, please email us at <a href="mailto:unix-lab@nyu.edu">unix-lab@nyu.edu</a>
     or fill out the feedback forms </p>
@@ -119,180 +164,248 @@ shift is greyed out indicating the absence of the tutor.
   <p>Alternatively, you can reach our lab at the slack channel: <a href="https://unixlabnyuad.slack.com">unixlabnyuad.slack.com</a></p>
 </div>
  -->
-<h2 id="feedback-label">Join Us</h2>
-<div id="joinus">
-  Want to a be Unix Lab tutor? Join us by applying at the start of each semester for the Unix Lab Monitor &
-  Learning Assistant position on Handshake.
-</div>
-<script>
-  var parse = d3.timeParse("%H:%M");
-  var format = d3.timeFormat("%H:%M");
-  var dateparse = d3.timeParse("%d/%m/%y");
-  var dateformat = d3.timeFormat("%d/%m/%y");
-  var basedate = d3.timeMonday(new Date());
+  <h2 id="feedback-label">Join Us</h2>
+  <div id="joinus">
+    Want to a be Unix Lab tutor? Join us by applying at the start of each
+    semester for the Unix Lab Monitor & Learning Assistant position on
+    Handshake.
+  </div>
+  <script>
+    var parse = d3.timeParse("%H:%M");
+    var format = d3.timeFormat("%H:%M");
+    var dateparse = d3.timeParse("%d/%m/%y");
+    var dateformat = d3.timeFormat("%d/%m/%y");
+    var basedate = d3.timeMonday(new Date());
 
-  var minTime = d3.timeHour.offset(parse(d3.min(shifts.map(x => x.from))), -1);
-  var maxTime = d3.timeHour.offset(parse(d3.max(shifts.map(x => x.to))), +1);
-  var yMax = 600;
+    var minTime = d3.timeHour.offset(
+      parse(d3.min(shifts.map((x) => x.from))),
+      -1
+    );
+    var maxTime = d3.timeHour.offset(
+      parse(d3.max(shifts.map((x) => x.to))),
+      +1
+    );
+    var yMax = 600;
 
-  var timelabels = d3.timeHour.range(minTime, maxTime, 1);
+    var timelabels = d3.timeHour.range(minTime, maxTime, 1);
 
-  var cellMargin = 1,
-          cellWidth = 58,
-          weekMargin = 10,
-          toplabelMargin = 60,
-          sidelabeMargin = 60;
+    var cellMargin = 1,
+      cellWidth = 58,
+      weekMargin = 10,
+      toplabelMargin = 60,
+      sidelabeMargin = 60;
 
-  var weekdays = [ "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
-  var weekShort = [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+    var weekdays = [
+      "monday",
+      "tuesday",
+      "wednesday",
+      "thursday",
+      "friday",
+      "saturday",
+      "sunday",
+    ];
+    var weekShort = [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday",
+    ];
 
-  var yoffset = function(t){
-    if(t == "00:00"){
-      t = "24:00";
-    }
-    if(t == "01:00"){
-      t = "25:00";
-    }
-    if(t== "02:00"){
-      t = "26:00";
-    }
-    return (parse(t) - minTime)/(maxTime - minTime) * yMax;
-  }
+    var yoffset = function (t) {
+      if (t == "00:00") {
+        t = "24:00";
+      }
+      if (t == "01:00") {
+        t = "25:00";
+      }
+      if (t == "02:00") {
+        t = "26:00";
+      }
+      return ((parse(t) - minTime) / (maxTime - minTime)) * yMax;
+    };
 
-  var preDay = -1;
-  var preTo = -1;
+    var preDay = -1;
+    var preTo = -1;
 
-  var xindex = function (a) {
-    if (weekdays.indexOf(a.day) > preDay){
-      preDay = weekdays.indexOf(a.day);
-      preTo = yoffset(a.to);
-      return 0;
-    }
-    else{
-      if (yoffset(a.from) >= preTo){
+    var xindex = function (a) {
+      if (weekdays.indexOf(a.day) > preDay) {
+        preDay = weekdays.indexOf(a.day);
         preTo = yoffset(a.to);
         return 0;
+      } else {
+        if (yoffset(a.from) >= preTo) {
+          preTo = yoffset(a.to);
+          return 0;
+        }
+        return 1;
       }
-      return 1;
-    }
-  }
+    };
 
-  var comparef = function(a, b){
-    ai = weekdays.indexOf(a.day);
-    bi = weekdays.indexOf(b.day);
-    return (ai == bi ? yoffset(a.from) - yoffset(b.from) : ai - bi);
-  }
+    var comparef = function (a, b) {
+      ai = weekdays.indexOf(a.day);
+      bi = weekdays.indexOf(b.day);
+      return ai == bi ? yoffset(a.from) - yoffset(b.from) : ai - bi;
+    };
 
-  var div = d3.select("body").append("div")
-          .attr("class", "tooltip")
-          .style("opacity", 0);
+    var div = d3
+      .select("body")
+      .append("div")
+      .attr("class", "tooltip")
+      .style("opacity", 0);
 
-  var svg = d3.select("#schedule")
-          .append("svg")
-          .attr("height", yMax + toplabelMargin)
-          .attr("width", 7 * 2 * (cellWidth + cellMargin) + 7 * (weekMargin) + sidelabeMargin)
-          .append("g");
+    var svg = d3
+      .select("#schedule")
+      .append("svg")
+      .attr("height", yMax + toplabelMargin)
+      .attr(
+        "width",
+        7 * 2 * (cellWidth + cellMargin) + 7 * weekMargin + sidelabeMargin
+      )
+      .append("g");
 
-  var weekof = svg.selectAll("text.weekoflabel").data([basedate]).enter()
-          .append("text")
-          .attr("class", "weeklabel")
-          .attr("x", 0)
-          .attr("y", 0)
-          .attr("dy", "0.9em")
-          .text(function(d){return "Week of " + dateformat(d)});
+    var weekof = svg
+      .selectAll("text.weekoflabel")
+      .data([basedate])
+      .enter()
+      .append("text")
+      .attr("class", "weeklabel")
+      .attr("x", 0)
+      .attr("y", 0)
+      .attr("dy", "0.9em")
+      .text(function (d) {
+        return "Week of " + dateformat(d);
+      });
 
-  var toplabels = svg.selectAll("text.daylabel").data(weekShort).enter()
-          .append("text")
-          .attr("class", "daylabel")
-          .attr("x", function(d){
-            return weekShort.indexOf(d) * (2*(cellWidth + cellMargin) + weekMargin) + sidelabeMargin;
-          })
-          .attr("y", 40)
-          .attr("dy","0.9em")
-          .text(function(d){return d});
+    var toplabels = svg
+      .selectAll("text.daylabel")
+      .data(weekShort)
+      .enter()
+      .append("text")
+      .attr("class", "daylabel")
+      .attr("x", function (d) {
+        return (
+          weekShort.indexOf(d) * (2 * (cellWidth + cellMargin) + weekMargin) +
+          sidelabeMargin
+        );
+      })
+      .attr("y", 40)
+      .attr("dy", "0.9em")
+      .text(function (d) {
+        return d;
+      });
 
-  var sidelabels = svg.selectAll("text.timelabel").data(timelabels).enter()
-          .append("text")
-          .attr("class", "timelabel")
-          .attr("x", 0)
-          .attr("y", function(d){
-            return yoffset(format(d)) + toplabelMargin;
-          })
-          .attr("dy", "0.3em")
-          .text(function(d){var f = d3.timeFormat("%I:%M %p"); return f(d);})
+    var sidelabels = svg
+      .selectAll("text.timelabel")
+      .data(timelabels)
+      .enter()
+      .append("text")
+      .attr("class", "timelabel")
+      .attr("x", 0)
+      .attr("y", function (d) {
+        return yoffset(format(d)) + toplabelMargin;
+      })
+      .attr("dy", "0.3em")
+      .text(function (d) {
+        var f = d3.timeFormat("%I:%M %p");
+        return f(d);
+      });
 
-  var hgrid = svg.selectAll("line.grid").data(timelabels).enter()
-          .append("line")
-          .attr("class", "grid")
-          .attr("x1", sidelabeMargin)
-          .attr("y1", function(d){
-            return yoffset(format(d)) + toplabelMargin;
-          })
-          .attr("x2", 7 * 2 * (cellWidth + cellMargin) + 7 * (weekMargin) + sidelabeMargin)
-          .attr("y2", function(d){
-            return yoffset(format(d)) + toplabelMargin;
-          });
+    var hgrid = svg
+      .selectAll("line.grid")
+      .data(timelabels)
+      .enter()
+      .append("line")
+      .attr("class", "grid")
+      .attr("x1", sidelabeMargin)
+      .attr("y1", function (d) {
+        return yoffset(format(d)) + toplabelMargin;
+      })
+      .attr(
+        "x2",
+        7 * 2 * (cellWidth + cellMargin) + 7 * weekMargin + sidelabeMargin
+      )
+      .attr("y2", function (d) {
+        return yoffset(format(d)) + toplabelMargin;
+      });
 
-  var vgrids = [...Array(8).keys()];
-  var vgrid = svg.selectAll("line.vgrid").data(vgrids).enter()
-          .append("line")
-          .attr("class", "vgrid")
-          .attr("x1", function(d){
-            return d * (2*(cellWidth + cellMargin) + weekMargin) + sidelabeMargin;
-          })
-          .attr("y1", yoffset(format(timelabels[0])) + toplabelMargin)
-          .attr("x2", function(d){
-            console.log(d * (2*(cellWidth + cellMargin) + weekMargin) + sidelabeMargin);
-            return d * (2*(cellWidth + cellMargin) + weekMargin) + sidelabeMargin;
+    var vgrids = [...Array(8).keys()];
+    var vgrid = svg
+      .selectAll("line.vgrid")
+      .data(vgrids)
+      .enter()
+      .append("line")
+      .attr("class", "vgrid")
+      .attr("x1", function (d) {
+        return d * (2 * (cellWidth + cellMargin) + weekMargin) + sidelabeMargin;
+      })
+      .attr("y1", yoffset(format(timelabels[0])) + toplabelMargin)
+      .attr("x2", function (d) {
+        console.log(
+          d * (2 * (cellWidth + cellMargin) + weekMargin) + sidelabeMargin
+        );
+        return d * (2 * (cellWidth + cellMargin) + weekMargin) + sidelabeMargin;
+      })
+      .attr(
+        "y2",
+        yoffset(format(timelabels[timelabels.length - 1])) + toplabelMargin
+      );
 
-          })
-          .attr("y2", yoffset(format(timelabels[timelabels.length-1])) + toplabelMargin);
-
-  var rect = svg.selectAll("rect.day").data(shifts.sort(comparef)).enter()
-          .append("rect")
-          .attr("class", "day")
-          .attr("width", cellWidth)
-          .attr("height", function(d){
-            return (yoffset(d.to) - yoffset(d.from));
-          })
-          .attr("id", function (d) {
-            return d.id + "-" + d.from + "-" +  d.to;
-          })
-          .attr("rx", 3).attr("ry", 3) // rounded corners
-          .attr("fill", function(d){
-            //return "#1f78b4";
-            return d3.interpolateCubehelixDefault((d.id+2)/22);
-            //return d3.interpolateViridis(d.id/15);
-            //return d3.schemePaired[d.id];
-          })
-          .attr("stroke", "white")
-          .attr("x", function (d) {
-            var wkday = weekdays.indexOf(d.day);
-            var pos = weekMargin/2 + wkday * ((cellWidth + cellMargin) * 2 + weekMargin) + xindex(d)*(cellWidth + cellMargin);
-            return pos + sidelabeMargin;
-          })
-          .attr("y", function(d){
-            return yoffset(d.from) + toplabelMargin;
-          })
-          .on("mouseover", function (d) {
-            d3.select(this).classed('hover', true);
-            //d3.select(this).style("fill", function(d){
-            //  return d3.schemePaired[d.id];
-            //        })
-            div.transition()
-                    .duration(200)
-                    .style("opacity", .9);
-            div	.html(tutors.find(function(t){return t.id == d.id}).name + "</br>")
-                    .style("left", (d3.event.pageX) + "px")
-                    .style("top", (d3.event.pageY - 28) + "px");
-          })
-          .on("mouseout", function (d) {
-            d3.select(this).classed('hover', false);
-            div.transition()
-                    .duration(500)
-                    .style("opacity", 0);
-          })
-          /*
+    var rect = svg
+      .selectAll("rect.day")
+      .data(shifts.sort(comparef))
+      .enter()
+      .append("rect")
+      .attr("class", "day")
+      .attr("width", cellWidth)
+      .attr("height", function (d) {
+        return yoffset(d.to) - yoffset(d.from);
+      })
+      .attr("id", function (d) {
+        return d.id + "-" + d.from + "-" + d.to;
+      })
+      .attr("rx", 3)
+      .attr("ry", 3) // rounded corners
+      .attr("fill", function (d) {
+        //return "#1f78b4";
+        return d3.interpolateCubehelixDefault((d.id + 2) / 22);
+        //return d3.interpolateViridis(d.id/15);
+        //return d3.schemePaired[d.id];
+      })
+      .attr("stroke", "white")
+      .attr("x", function (d) {
+        var wkday = weekdays.indexOf(d.day);
+        var pos =
+          weekMargin / 2 +
+          wkday * ((cellWidth + cellMargin) * 2 + weekMargin) +
+          xindex(d) * (cellWidth + cellMargin);
+        return pos + sidelabeMargin;
+      })
+      .attr("y", function (d) {
+        return yoffset(d.from) + toplabelMargin;
+      })
+      .on("mouseover", function (d) {
+        d3.select(this).classed("hover", true);
+        //d3.select(this).style("fill", function(d){
+        //  return d3.schemePaired[d.id];
+        //        })
+        div.transition().duration(200).style("opacity", 0.9);
+        div
+          .html(
+            tutors.find(function (t) {
+              return t.id == d.id;
+            }).name + "</br>"
+          )
+          .style("left", d3.event.pageX + "px")
+          .style("top", d3.event.pageY - 28 + "px");
+      })
+      .on("mouseout", function (d) {
+        d3.select(this).classed("hover", false);
+        div.transition().duration(500).style("opacity", 0);
+      });
+    /*
           .on("click", function(d){
               var dt = new Date();
               var utc = dt.getTime() + (dt.getTimezoneOffset() * 60000);
@@ -307,38 +420,47 @@ shift is greyed out indicating the absence of the tutor.
               //if(d.day == weekdays[dt.getDay()])
               //window.open(tutors.find(function(t){return t.id == d.id}).zoom, '_blank');
           });*/
-  d3.csv("data/absent.csv", function (c) {
-    var absent =  c.filter(function(d){
-      if(dateparse(d["date"]) >= basedate &&
-              dateparse(d["date"]) <= d3.timeWeek.offset(basedate, 1)){
-        return d;
-      }
+    d3.csv("data/absent.csv", function (c) {
+      var absent = c.filter(function (d) {
+        if (
+          dateparse(d["date"]) >= basedate &&
+          dateparse(d["date"]) <= d3.timeWeek.offset(basedate, 1)
+        ) {
+          return d;
+        }
+      });
+
+      var rabs = svg
+        .selectAll("rect.absent")
+        .data(absent)
+        .enter()
+        .append("rect")
+        .attr("class", "absent")
+        .attr("width", cellWidth)
+        .attr("height", function (d) {
+          return yoffset(d.to) - yoffset(d.from);
+        })
+        .attr("rx", 3)
+        .attr("ry", 3) // rounded corners
+        .attr("x", function (d) {
+          var wkday = dateparse(d.date).getDay();
+          var xpos = 0;
+          var underlay = d3.selectAll("rect.day").filter(function (b) {
+            if (
+              b.id == d.id &&
+              b.from <= d.from &&
+              b.to >= d.to &&
+              (weekdays.indexOf(b.day) + 1) % 7 == wkday
+            ) {
+              return b;
+            }
+          });
+          if (underlay.size() > 0) return underlay.attr("x");
+          else return "-100";
+        })
+        .attr("y", function (d) {
+          return yoffset(d.from) + toplabelMargin;
+        });
     });
-
-    var rabs = svg.selectAll("rect.absent").data(absent).enter()
-            .append("rect")
-            .attr("class", "absent")
-            .attr("width", cellWidth)
-            .attr("height", function(d){
-              return (yoffset(d.to) - yoffset(d.from));
-            })
-            .attr("rx", 3).attr("ry", 3) // rounded corners
-            .attr("x", function (d) {
-              var wkday = dateparse(d.date).getDay();
-              var xpos = 0;
-              var underlay = d3.selectAll("rect.day").filter(function(b){
-                if (b.id == d.id && b.from <= d.from && b.to >= d.to && (weekdays.indexOf(b.day) +1)%7 == wkday ){
-                  return b;
-                }
-              });
-              if(underlay.size() > 0)
-                return underlay.attr("x");
-              else
-                return "-100";
-            })
-            .attr("y", function(d){
-              return yoffset(d.from) + toplabelMargin;
-            });
-
-  });
-</script>
+  </script>
+</body>
