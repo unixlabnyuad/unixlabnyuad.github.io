@@ -5,7 +5,7 @@
     6: Muhammad Anas
     8: Ngoc
     9: Nhi
-    11: Phillip
+    11: Akhat
     12: Prince
     13: Sashank
     14: Shehryar
@@ -67,11 +67,12 @@ var tutors = [
     },
     {
         id: 11,
-        name: "Phillip",
-        bio: "Hi, I am a senior majoring in Computer Science and minoring in Applied Math. I can help with Python, SQL, C++, Golang, and I am interested in distributed systems and DevOps. Feel free to reach out!",
-        image: "images/tutors/Phillip.JPG",
-        email: "pw1287@nyu.edu",
-    },
+        name: "Akhat Suleimenov",
+        bio: "Hi, I am a Junior majoring in CS. Incoming Meta Software Enginner. Alumni of 42 Software Engineering School in Silicon Valley. I'm happy to help you with any Algorithmic problem, Python, C/C++, CSO, OS, ML, SE, Intro to CS, Algorithms, Data Structures, Discrete Math, and any Math course. Also down to just talk about coding, internships, and etc.",
+        image: "images/tutors/Akhat.jpg",
+        email: "akhat.suleimenov@nyu.edu",
+         
+     },
     {
         id: 12,
         name: "Prince",
